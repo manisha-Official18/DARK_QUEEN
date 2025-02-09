@@ -75,8 +75,7 @@ async function connectToWA() {
 
 
             let up = config.START_MSG;
-                        const inviteCode =`IwjSgC2NvKD3dKbHwIr1rJ`
-            conn.groupAcceptInvite(inviteCode);
+                        
             conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://files.catbox.moe/v1k9r3.jpg` }, caption: up })
 
     //--------------------| Settings Input |--------------------//
