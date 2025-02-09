@@ -62,8 +62,8 @@ async function connectToWA() {
                 connectToWA()
             }
         } else if (connection === 'open') {
-            console.log('✅ DARK_QUEEN - Plugin Installing...')
-            console.log('✅ DARK_QUEEN - Plugin Install Completed...')
+            console.log('✅ DARK_QUEEN - plugins Installing...')
+            console.log('✅ DARK_QUEEN - plugins Install Completed...')
             console.log('✅ DARK_QUEEN - Sucessfull Conected Your Device...')
             const path = require('path');
             fs.readdirSync("./plugins/").forEach((plugin) => {
