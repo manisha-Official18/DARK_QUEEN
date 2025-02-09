@@ -3,13 +3,13 @@ require("dotenv").config();
 
 module.exports = {
   //==========================================- MAIN - CONFIGS -==================================================================
-  SESSION_ID: process.env.SESSION_ID || "n3BUlQzb#f2Zz-1s3TzJ6tnTw6BkOtMar3BzVNmQxMi1Fkz_xY_c",
+  SESSION_ID: process.env.SESSION_ID || "",
   // ADD Your Session Id 
   MONGODB: process.env.MONGODB || "mongodb://mongo:pqhIdfGdqeHbLRZRFbzBRMlAhASSYFWP@junction.proxy.rlwy.net:48487",
     // ADD Your MongoDB Database URL
   PREFIX: process.env.PREFIX || ".",
   // Add Your Custom Prefix 
-  mode: process.env.mode || "public",
+  mode: process.env.mode || "private",
   // Add Your Bot Mode 
   // private = Only Working For Owner Number
   // public = AnyOne Working
@@ -50,6 +50,7 @@ module.exports = {
   START_MSG: process.env.START_MSG || `╭──────────────⊷❒\n\n- *🩷සාදරයෙන් පිලිගන්නවා DARK_QUEEN WHATSAPP BOT වෙත.*\n\n⁠⁠⁠⁠┗━┫*⚬°❀𝐌❀°⚬*┣━⁠⁠⁠⁠✾\n\n- *🩷DARK_QUEEN යනූ සීඝ්‍රයෙන් වර්ධනය වන Whatsapp රොබෝවෙකි.*⁠\n\n┗━┫*⚬°❀𝐀❀°⚬*┣━⁠⁠⁠⁠✾\n\n- *🩷ඔබගේ ගිණුම දැන් සක්‍රියයි.*\n\n⁠⁠⁠⁠┗━┫*⚬°❀𝐍❀°⚬*┣━⁠⁠⁠⁠✾\n\n⁠⁠⁠⁠⁠⁠- *🩷මෙය ඔබගේ LOG අංකයයි මෙහි විධාන භාවිතයෙන් වළකින්න⚠️.*\n\n⁠⁠⁠⁠⁠⁠⁠⁠┗━┫*⚬°❀𝐈❀°⚬*┣━⁠⁠⁠⁠✾\n\n⁠⁠⁠⁠⁠⁠⁠⁠- *🩷CREATE BY MANISHA SASMITHA.*\n\n⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠┗━┫*⚬°❀𝐘❀°⚬*┣━⁠⁠⁠⁠✾\n\n- *🩷Join My WhatsApp Channel:* https://whatsapp.com/channel/0029VavZd1y0lwgxqEopap2e\n\n⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠┗━┫*⚬°❀𝐀❀°⚬*┣━⁠⁠⁠⁠✾\n\n⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠╰──────────────⊷❒ ` ,
 
   ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/v1k9r3.jpg",
+  ALIVE_MSG: process.env.ALIVE_MSG || "i am alive now",
   MENU_IMG: process.env.MENU_IMG || "https://files.catbox.moe/v1k9r3.jpg",
   MENU_MSG: process.env.MENU_MSG || `Menumsg`,
   MENU_MS: process.env.MENU_MS || `menu 2`,
