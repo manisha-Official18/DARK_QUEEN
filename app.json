@@ -29,7 +29,7 @@
     "OWNER_NUMBER": {
       "description": "Owner Number",
       "required": true,
-      "default": "94718913389"
+      "default": "94721551183"
     },
     "ALIVE_IMG": {
       "description": "Put your alive img here.",
@@ -94,12 +94,12 @@
     "packname": {
       "description": "Pack name for your bot",
       "required": false,
-      "default": "SAHAS TECH"
+      "default": "ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ"
     },
     "author": {
       "description": "Author name for your bot",
       "required": false,
-      "default": "SAHAS TECH"
+      "default": "ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ"
     },
     "OPENWEATHER_API_KEY": {
       "description": "API key for OpenWeather",
