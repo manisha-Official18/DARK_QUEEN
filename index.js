@@ -1,4 +1,3 @@
-
 const {
     default: makeWASocket,
     useMultiFileAuthState,
@@ -67,9 +66,9 @@ async function connectToWA() {
             console.log('✅ DARK_QUEEN - Plugin Install Completed...')
             console.log('✅ DARK_QUEEN - SAHAS-MD Sucessfull Conected Your Device...')
             const path = require('path');
-            fs.readdirSync("./Plugin/").forEach((plugin) => {
+            fs.readdirSync("./plugins/").forEach((plugin) => {
                 if (path.extname(plugin).toLowerCase() == ".js") {
-                    require("./Plugin/" + plugin);
+                    require("./plugins/" + plugin);
                 }
             });
 
