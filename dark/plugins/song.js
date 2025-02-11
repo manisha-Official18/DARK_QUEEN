@@ -60,6 +60,11 @@ cmd(
 ⭕➥Uploaded On:* ${data.ago} 
 ⭕➥Link:* ${data.url} 
 
+*🔢 REPLY NUMBER*
+
+*𝟏  𝑨𝑼𝑫𝑰𝑶 𝑫𝑶𝑾𝑵𝑳𝑶𝑨𝑫*
+*𝟐  𝑨𝑼𝑫𝑰𝑶 𝑫𝑶𝑪𝑼𝑴𝑬𝑵𝑻*
+
 > *©ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ*
 ╚═══════✮❁•°❀°•❁✮════════╝
 `;
@@ -106,7 +111,19 @@ const vv = await manisha.sendMessage(
                           );
                         break;
                     case '2':
-                        
+                        const quality = "128"; // Default quality
+                         const songData = await ytmp3(url, quality);
+
+      // Validate song duration (limit: 30 minutes)
+      let durationParts = data.timestamp.split(":").map(Number);
+      let totalSeconds =
+        durationParts.length === 3
+          ? durationParts[0] * 3600 + durationParts[1] * 60 + durationParts[2]
+          : durationParts[0] * 60 + durationParts[1];
+
+      if (totalSeconds > 1800) {
+        return reply("⏱️ audio limit is 30 minitues");
+                }
                         await manisha.sendMessage(
                         from, 
                         { 
