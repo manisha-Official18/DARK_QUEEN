@@ -1,6 +1,6 @@
 {
   "name": "DARK_QUEEN",
-  "description": "ꜱʀɪ-ʟᴀɴᴋᴀɴ🇱🇰 ᴍᴏꜱᴛ❎ ꜱᴘᴇᴇᴅ🚀 &🫰 ʙᴇꜱᴛ👬 ᴍᴜʟᴛɪ🥡 ᴅᴇᴠɪᴄᴇ📱 ᴡʜᴀᴛꜱᴀᴘᴘ🪀 ʙᴏᴛ🤖",
+  "description": "Javascript WhatsApp bot created by manisha sasmitha",
   "logo": "https://files.catbox.moe/v1k9r3.jpg",
   "keywords": ["bot"],
   "success_url": "/",
@@ -94,12 +94,12 @@
     "packname": {
       "description": "Pack name for your bot",
       "required": false,
-      "default": "ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ"
+      "default": "manisha sasmitha"
     },
     "author": {
       "description": "Author name for your bot",
       "required": false,
-      "default": "ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ"
+      "default": "manisha sasmitha"
     },
     "OPENWEATHER_API_KEY": {
       "description": "API key for OpenWeather",

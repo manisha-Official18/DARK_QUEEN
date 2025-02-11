@@ -3,13 +3,13 @@ require("dotenv").config();
 
 module.exports = {
   //==========================================- MAIN - CONFIGS -==================================================================
-  SESSION_ID: process.env.SESSION_ID || "",
+  SESSION_ID: process.env.SESSION_ID || "PvZHzT6R#ZwtZnErR0Kbfh8v_sxik75gtL9oGdn9hRATrVJwLP60",
   // ADD Your Session Id 
-  MONGODB: process.env.MONGODB || "mongodb://mongo:pqhIdfGdqeHbLRZRFbzBRMlAhASSYFWP@junction.proxy.rlwy.net:48487",
+  MONGODB: process.env.MONGODB || "mongodb+srv://kulathungaasitha319:yjHB0DvFfStNfwPS@cluster0.3oijd.mongodb.net/",
     // ADD Your MongoDB Database URL
   PREFIX: process.env.PREFIX || ".",
   // Add Your Custom Prefix 
-  mode: process.env.mode || "private",
+  mode: process.env.mode || "public",
   // Add Your Bot Mode 
   // private = Only Working For Owner Number
   // public = AnyOne Working
@@ -17,6 +17,7 @@ module.exports = {
   // groups = only working in group
   OWNER_NUMBER: process.env.OWNER_NUMBER || "94721551183",
   //========================================- OTHER - CONFIGS -=====================================================================
+  AUTO_VOICE: process.env.AUTO_VOICE || "true",
   ANTI_BAD_WORDS_ENABLED: process.env.ANTI_BAD_WORDS_ENABLED || "true",
   AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
   ANTI_BAD_WORDS: (process.env.ANTI_BAD_WORDS || "pakayo,huththo").split(','),
@@ -27,8 +28,8 @@ module.exports = {
   ALWAYS_RECORDING: process.env.ALWAYS_RECORDING || "true",
   ANTI_BOT: process.env.ANTI_BOT || "true",
   ANTI_DELETE: process.env.ANTI_DELETE || "true",
-  packname: process.env.packname || "ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ",
-  author: process.env.author || "ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ ",
+  packname: process.env.packname || "manisha sasmitha",
+  author: process.env.author || "manisha sasmitha",
   //==========================================- API-CONFIGS -==========================================================
   OPENWEATHER_API_KEY: process.env.OPENWEATHER_API_KEY || "2d61a72574c11c4f36173b627f8cb177", //openweathermap.org
   ELEVENLABS_API_KEY: process.env.ELEVENLABS_API_KEY || "sk_6438bcc100d96458f8de0602aec662f4ba14b905fd090ad3", //elevenlabs.io
@@ -47,12 +48,11 @@ module.exports = {
 //------------------------------------------------------------------------------------------------------------------
 
   
-  START_MSG: process.env.START_MSG || `╭──────────────⊷❒\n\n- *🩷සාදරයෙන් පිලිගන්නවා DARK_QUEEN WHATSAPP BOT වෙත.*\n\n⁠⁠⁠⁠┗━┫*⚬°❀𝐌❀°⚬*┣━⁠⁠⁠⁠✾\n\n- *🩷DARK_QUEEN යනූ සීඝ්‍රයෙන් වර්ධනය වන Whatsapp රොබෝවෙකි.*⁠\n\n┗━┫*⚬°❀𝐀❀°⚬*┣━⁠⁠⁠⁠✾\n\n- *🩷ඔබගේ ගිණුම දැන් සක්‍රියයි.*\n\n⁠⁠⁠⁠┗━┫*⚬°❀𝐍❀°⚬*┣━⁠⁠⁠⁠✾\n\n⁠⁠⁠⁠⁠⁠- *🩷මෙය ඔබගේ LOG අංකයයි මෙහි විධාන භාවිතයෙන් වළකින්න⚠️.*\n\n⁠⁠⁠⁠⁠⁠⁠⁠┗━┫*⚬°❀𝐈❀°⚬*┣━⁠⁠⁠⁠✾\n\n⁠⁠⁠⁠⁠⁠⁠⁠- *🩷CREATE BY MANISHA SASMITHA.*\n\n⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠┗━┫*⚬°❀𝐘❀°⚬*┣━⁠⁠⁠⁠✾\n\n- *🩷Join My WhatsApp Channel:* https://whatsapp.com/channel/0029VavZd1y0lwgxqEopap2e\n\n⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠┗━┫*⚬°❀𝐀❀°⚬*┣━⁠⁠⁠⁠✾\n\n⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠╰──────────────⊷❒ ` ,
+  START_MSG: process.env.START_MSG || `SAHAS-MD Conected` ,
 
   ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/v1k9r3.jpg",
-  ALIVE_MSG: process.env.ALIVE_MSG || "i am alive now",
   MENU_IMG: process.env.MENU_IMG || "https://files.catbox.moe/v1k9r3.jpg",
   MENU_MSG: process.env.MENU_MSG || `Menumsg`,
-  MENU_MS: process.env.MENU_MS || `menu 2`,
+    MENU_MS: process.env.MENU_MS || `menu 2`,
 
 };

@@ -1,3 +1,4 @@
+
 const {
     default: makeWASocket,
     useMultiFileAuthState,
@@ -8,13 +9,13 @@ const {
     Browsers
 } = require('@whiskeysockets/baileys')
 
-const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson } = require('./lib/functions')
+const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson } = require('./DATABASE/functions')
 const fs = require('fs')
 const P = require('pino')
 const config = require('./config')
 const qrcode = require('qrcode-terminal')
 const util = require('util')
-const { sms, downloadMediaMessage } = require('./lib/msg')
+const { sms, downloadMediaMessage } = require('./DATABASE/msg')
 const axios = require('axios')
 const { File } = require('megajs')
 const prefix = config.PREFIX 
@@ -24,15 +25,15 @@ const ownerNumber = ['94721551183']
 
 //--------------------| SAHAS-MD Sesion Output |--------------------//
 
-if (!fs.existsSync(__dirname + '/session/creds.json')) {
+if (!fs.existsSync(__dirname + '/Session/creds.json')) {
     if(!config.SESSION_ID) return console.log('❎ DARK_QUEEN - Please Add Your Session...')
     const sessdata = config.SESSION_ID
     const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
     filer.download((err, data) => {
         if(err) throw err
-        fs.writeFile(__dirname + '/session/creds.json', data, () => {
+        fs.writeFile(__dirname + '/Session/creds.json', data, () => {
 
-            console.log("✅ DARK_QUEEN - Session Downloading...")
+            console.log("✅ DARK_QUEEN- Session Downloading...")
         })
     })
 }
@@ -62,22 +63,22 @@ async function connectToWA() {
                 connectToWA()
             }
         } else if (connection === 'open') {
-            console.log('✅ DARK_QUEEN - plugins Installing...')
-            console.log('✅ DARK_QUEEN - plugins Install Completed...')
+            console.log('✅ DARK_QUEEN - Plugin Installing...')
+            console.log('✅ DARK_QUEEN - Plugin Install Completed...')
             console.log('✅ DARK_QUEEN - Sucessfull Conected Your Device...')
             const path = require('path');
-            fs.readdirSync("./plugins/").forEach((plugin) => {
+            fs.readdirSync("./Plugin/").forEach((plugin) => {
                 if (path.extname(plugin).toLowerCase() == ".js") {
-                    require("./plugins/" + plugin);
+                    require("./Plugin/" + plugin);
                 }
             });
 
 
             let up = config.START_MSG;
-                        
+                    
             conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://files.catbox.moe/v1k9r3.jpg` }, caption: up })
 
-    //--------------------| Settings Input |--------------------//
+    //--------------------| DARK_QUEEN  Settings Input |--------------------//
 
             if (config.ALWAYS_ONLINE === "true") {
                 conn.sendPresenceUpdate('available')
@@ -157,7 +158,9 @@ async function connectToWA() {
             }
         }  
 
-//--------------------| Anti Bad |--------------------//
+
+
+//--------------------| DARK_QUEEN  Anti Bad |--------------------//
 
         if (isGroup && config.ANTI_BAD_WORDS_ENABLED) {
             if (config.ANTI_BAD_WORDS) {
@@ -178,7 +181,7 @@ async function connectToWA() {
             }
         }
 
-//--------------------| Anti Bot |--------------------//
+//--------------------| DARK_QUEEN  Anti Bot |--------------------//
 
 if (isGroup && config.ANTI_BOT === "true") {
     // Check if the sender is another bot (Baileys-based or similar) and is not an admin or owner
@@ -201,7 +204,7 @@ if (isGroup && config.ANTI_BOT === "true") {
     }
 }
 
-//--------------------| Anti Link |--------------------//
+//--------------------| DARK_QUEEN  Anti Link |--------------------//
 
         if (isGroup && config.ANTI_LINK) {
             // Define patterns for chat.whatsapp.com links
@@ -222,14 +225,14 @@ if (isGroup && config.ANTI_BOT === "true") {
             }
         }
 
-//--------------------| Owner React |--------------------//
+//--------------------| SAHAS-MD Owner React |--------------------//
 
         if(senderNumber.includes("94721551183")){
             if(isReact) return
             m.react("👨‍💻")
         }    
 
-//--------------------|  Don't Edit |--------------------//
+//--------------------| DARK_QUEEN Don't Edit |--------------------//
 
         const events = require('./command')
         const cmdName = isCmd ? body.slice(1).trim().split(" ")[0].toLowerCase() : false;
@@ -264,7 +267,7 @@ if (isGroup && config.ANTI_BOT === "true") {
         });
     })
 
-//--------------------| SAHAS-MD Anti Del |--------------------//
+//--------------------| DARK_QUEEN  Anti Del |--------------------//
 
 conn.ev.on('messages.delete', async (message) => {
     if (config.ANTI_DELETE === "true" && message.remoteJid.endsWith('@g.us')) {
