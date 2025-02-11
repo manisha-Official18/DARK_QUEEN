@@ -81,7 +81,7 @@ cmd({
           externalAdReply: {
               title: `Runtime ⏰`,
               body: `Can't Find The Information. You Can Try Another Way. Error Code 4043`,
-              thumbnailUrl: `https://pomf2.lain.la/f/zxbep8y.jpg`,
+              thumbnailUrl: `https://files.catbox.moe/3jw4io.jpg`,
               sourceUrl: ``,
               mediaType: 1,
               renderLargerThumbnail: true
@@ -175,7 +175,7 @@ cmd({
           externalAdReply: {
               title: `I'm Alive Now 👨‍💻`,
               body: `Can't Find The Information. You Can Try Another Way. Error Code 4043`,
-              thumbnailUrl: `https://pomf2.lain.la/f/zxbep8y.jpg`,
+              thumbnailUrl: `https://files.catbox.moe/l2ofp9.jpg`,
               sourceUrl: ``,
               mediaType: 1,
               renderLargerThumbnail: true
@@ -273,7 +273,7 @@ const sentMsg = await conn.sendMessage(from, {
           externalAdReply: {
               title: `DARK_QUEEN Menu List`,
               body: `Can't Find The Information. You Can Try Another Way. Error Code 4043`,
-              thumbnailUrl: `https://pomf2.lain.la/f/zxbep8y.jpg`,
+              thumbnailUrl: `https://files.catbox.moe/m27q4s.jpg`,
               sourceUrl: ``,
               mediaType: 1,
               renderLargerThumbnail: true
@@ -721,7 +721,7 @@ menu[commands[i].category] += `.${commands[i].pattern}\n`;
           externalAdReply: {
               title: `DARK_QUEEN Menu List`,
               body: `Can't Find The Information. You Can Try Another Way. Error Code 4043`,
-              thumbnailUrl: `https://pomf2.lain.la/f/zxbep8y.jpg`,
+              thumbnailUrl: `https://files.catbox.moe/0occok.jpg`,
               sourceUrl: ``,
               mediaType: 1,
               renderLargerThumbnail: true
@@ -808,7 +808,7 @@ cmd({
           externalAdReply: {
               title: `DARK_QUEEN Owner Information`,
               body: `Can't Find The Information. You Can Try Another Way. Error Code 4043`,
-              thumbnailUrl: `https://pomf2.lain.la/f/zxbep8y.jpg`,
+              thumbnailUrl: `https://files.catbox.moe/rxxvmn.jpg`,
               sourceUrl: ``,
               mediaType: 1,
               renderLargerThumbnail: true
@@ -896,7 +896,7 @@ cmd({
           externalAdReply: {
               title: `DARK_QUEEN Repo Informations`,
               body: `Can't Find The Information. You Can Try Another Way. Error Code 4043`,
-              thumbnailUrl: `https://pomf2.lain.la/f/zxbep8y.jpg`,
+              thumbnailUrl: `https://files.catbox.moe/myvxa5.jpg`,
               sourceUrl: ``,
               mediaType: 1,
               renderLargerThumbnail: true
@@ -980,7 +980,7 @@ cmd({
           externalAdReply: {
               title: `DARK_QUEEN System Information`,
               body: `Can't Find The Information. You Can Try Another Way. Error Code 4043`,
-              thumbnailUrl: `https://pomf2.lain.la/f/zxbep8y.jpg`,
+              thumbnailUrl: `https://files.catbox.moe/6731et.jpg`,
               sourceUrl: ``,
               mediaType: 1,
               renderLargerThumbnail: true
