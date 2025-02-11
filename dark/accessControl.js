@@ -14,7 +14,7 @@ async function loadData() {
         developers = []; // Initialize developers array
 
         // Load blacklist from local JSON file
-        const localBlacklistPath = path.join(__dirname, '../DATABASE/blacklist.json');
+        const localBlacklistPath = path.join(__dirname, '../dark/blacklist.json');
         try {
             const localBlacklistData = fs.readFileSync(localBlacklistPath, 'utf8');
             blacklistedJIDs = JSON.parse(localBlacklistData).jids || [];
