@@ -32,15 +32,6 @@ You can see the Paire Code at **[PAIR CODE](https://replit.com/@manisha1718mani/
 
 <img src="./dark/img/2006_7.gif" alt="Loading..." width="320"/>
 
-<p align="center">
-
-<img src="https://i.ibb.co/82zgjSR/20220926-155611.png" alt="nz" width="350"/>
-
-</p>
-
-
-
-
 
 
 <p align="center">
