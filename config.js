@@ -13,7 +13,6 @@ module.exports = {
   // public = AnyOne Working
   // inbox = Only Working  Inbox
   // groups = only working in group
-  OWNER_NUMBER: process.env.OWNER_NUMBER || "94721551183",
   //========================================- OTHER - CONFIGS -=====================================================================
   ANTI_BAD_WORDS_ENABLED: process.env.ANTI_BAD_WORDS_ENABLED || "true",
   AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
@@ -26,7 +25,7 @@ module.exports = {
   ANTI_BOT: process.env.ANTI_BOT || "true",
   ANTI_DELETE: process.env.ANTI_DELETE || "true",
 //=============API KEY=============
- MOVIE_API_KEY: process.env.MOVIE_API_KEY || "sky|decd54b4fa030634e54d6c87fdffbb95f0bb9fb5",
+  MOVIE_API_KEY: process.env.MOVIE_API_KEY || "sky|decd54b4fa030634e54d6c87fdffbb95f0bb9fb5",
 //==============START MSG================
   START_MSG: process.env.START_MSG || `╭──────────────⊷❒\n\n*🩷WELCOME TO DARK_QUEEN WHATSAPP BOT.*\n\n┗━┫*⚬°❀𝐌❀°⚬*┣━⁠⁠✾\n\n*🩷DARK_QUEEN is a fast growing Whatsapp bot.*\n\n┗━┫*⚬°❀𝐀❀°⚬*┣━⁠⁠✾\n\n *🩷Your account is now active.*\n\n┗━┫*⚬°❀𝐍❀°⚬*┣━⁠⁠✾\n\n⁠*🩷This is your log number. Avoid using commands here⚠️.*\n\n┗━┫*⚬°❀𝐈❀°⚬*┣━⁠⁠⁠⁠✾\n\n*🩷Join My WhatsApp Channel:* https://whatsapp.com/channel/0029Vb1AB158F2pCzMyd8O1B\n\n┗━┫*⚬°❀𝐘❀°⚬*┣━⁠⁠⁠⁠✾\n\n*🩷CREATED BY MANISHA SASMITHA.*\n\n┗━┫*⚬°❀𝐀❀°⚬*┣━⁠⁠⁠⁠✾\n\n╰──────────────⊷❒` ,
 };
