@@ -5,8 +5,6 @@ module.exports = {
   //==========================================- MAIN - CONFIGS -==================================================================
   SESSION_ID: process.env.SESSION_ID || "PvZHzT6R#ZwtZnErR0Kbfh8v_sxik75gtL9oGdn9hRATrVJwLP60",
   // ADD Your Session Id 
-  MONGODB: process.env.MONGODB || "mongodb+srv://kulathungaasitha319:yjHB0DvFfStNfwPS@cluster0.3oijd.mongodb.net/",
-    // ADD Your MongoDB Database URL
   PREFIX: process.env.PREFIX || ".",
   // Add Your Custom Prefix 
   mode: process.env.mode || "public",
@@ -29,10 +27,11 @@ module.exports = {
   ANTI_DELETE: process.env.ANTI_DELETE || "true",
   packname: process.env.packname || "manisha sasmitha",
   author: process.env.author || "manisha sasmitha",
-
-
+//=============API KEY=============
+ MOVIE_API_KEY: process.env.MOVIE_API_KEY || "sky|decd54b4fa030634e54d6c87fdffbb95f0bb9fb5",
+//==============START MSG================
   START_MSG: process.env.START_MSG || `╭──────────────⊷❒\n\n*🩷WELCOME TO DARK_QUEEN WHATSAPP BOT.*\n\n┗━┫*⚬°❀𝐌❀°⚬*┣━⁠⁠✾\n\n*🩷DARK_QUEEN is a fast growing Whatsapp bot.*\n\n┗━┫*⚬°❀𝐀❀°⚬*┣━⁠⁠✾\n\n *🩷Your account is now active.*\n\n┗━┫*⚬°❀𝐍❀°⚬*┣━⁠⁠✾\n\n⁠*🩷This is your log number. Avoid using commands here⚠️.*\n\n┗━┫*⚬°❀𝐈❀°⚬*┣━⁠⁠⁠⁠✾\n\n*🩷Join My WhatsApp Channel:* https://whatsapp.com/channel/0029Vb1AB158F2pCzMyd8O1B\n\n┗━┫*⚬°❀𝐘❀°⚬*┣━⁠⁠⁠⁠✾\n\n*🩷CREATED BY MANISHA SASMITHA.*\n\n┗━┫*⚬°❀𝐀❀°⚬*┣━⁠⁠⁠⁠✾\n\n╰──────────────⊷❒` ,
-
+//===============ALIVE,MENU IMG=================
   ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/l2ofp9.jpg",
   MENU_IMG: process.env.MENU_IMG || "https://files.catbox.moe/yweqjg.png",
   MENU_MSG: process.env.MENU_MSG || `Menumsg`,
