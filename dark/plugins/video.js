@@ -25,17 +25,22 @@ cmd(
       const url = data.url;
 
       // Video metadata description
-      let desc = `🎥 *ROBIN MAX VIDEO DOWNLOADER* 🎥
-      
-👻 *Title* : ${data.title}
-👻 *Duration* : ${data.timestamp}
-👻 *Views* : ${data.views}
-👻 *Uploaded* : ${data.ago}
-👻 *Channel* : ${data.author.name}
-👻 *Link* : ${data.url}
+      let desc = `      
+╔═══════✮❁•°♛°•❁✮════════╗
+ 𝑫𝑨𝑹𝑲_𝑸𝑼𝑬𝑬𝑵-𝑽𝟏 𝑽𝑰𝑫𝑬𝑶 𝑫𝑶𝑾𝑵𝑳𝑶𝑨𝑫
+╚═══════✮❁•°♛°•❁✮════════╝
 
-𝐌𝐚𝐝𝐞 𝐛𝐲 ROBIN MAX`
-;
+╔═══════✮❁•°❀°•❁✮════════╗
+⭕➥Title:* ${data.title} 
+⭕➥Duration:* ${data.timestamp} 
+⭕➥Views:* ${data.views} 
+⭕➥Uploaded On:* ${data.ago} 
+⭕➥Channel:* ${data.author.name}
+⭕➥Link:* ${data.url} 
+
+
+> *©ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ*
+╚═══════✮❁•°❀°•❁✮════════╝ `;
 
       // Send metadata and thumbnail message
       await manisha.sendMessage(
