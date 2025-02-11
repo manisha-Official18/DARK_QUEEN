@@ -11,11 +11,6 @@
       "required": true,
       "default": ""
     },
-    "MONGODB": {
-      "description": "Put your MongoDB Database URL here.",
-      "required": true,
-      "default": ""
-    },
     "PREFIX": {
       "description": "Add Your Custom Prefix here.",
       "required": true,
@@ -25,21 +20,6 @@
       "description": "Add Your Bot Mode (private, public, inbox, groups) here.",
       "required": true,
       "default": "public"
-    },
-    "OWNER_NUMBER": {
-      "description": "Owner Number",
-      "required": true,
-      "default": ""
-    },
-    "ALIVE_IMG": {
-      "description": "Put your alive img here.",
-      "required": true,
-      "default": ""
-    },
-    "ALIVE_MSG": {
-      "description": "Put your alive msg here.",
-      "required": true,
-      "default": ""
     },
     "ANTI_BAD_WORDS_ENABLED": {
       "description": "Enable anti bad words (true/false)",
@@ -85,66 +65,6 @@
       "description": "Enable anti delete feature (true/false)",
       "required": false,
       "default": "true"
-    },
-    "packname": {
-      "description": "Pack name for your bot",
-      "required": false,
-      "default": "manisha sasmitha"
-    },
-    "author": {
-      "description": "Author name for your bot",
-      "required": false,
-      "default": "manisha sasmitha"
-    },
-    "OPENWEATHER_API_KEY": {
-      "description": "API key for OpenWeather",
-      "required": false,
-      "default": ""
-    },
-    "ELEVENLABS_API_KEY": {
-      "description": "API key for Eleven Labs",
-      "required": false,
-      "default": ""
-    },
-    "SHODAN_API": {
-      "description": "API key for Shodan",
-      "required": false,
-      "default": ""
-    },
-    "PEXELS_API_KEY": {
-      "description": "API key for Pexels",
-      "required": false,
-      "default": ""
-    },
-    "OMDB_API_KEY": {
-      "description": "API key for OMDB",
-      "required": false,
-      "default": "76cb7f39"
-    },
-    "PIXABAY_API_KEY": {
-      "description": "API key for Pixabay",
-      "required": false,
-      "default": "23378594-7bd620160396da6e8d2ed4d53"
-    },
-    "ZIPCODEBASE_API_KEY": {
-      "description": "API key for Zipcodebase",
-      "required": false,
-      "default": ""
-    },
-    "GOOGLE_API_KEY": {
-      "description": "Google API key",
-      "required": false,
-      "default": ""
-    },
-    "GOOGLE_CX": {
-      "description": "Google Custom Search Engine ID",
-      "required": false,
-      "default": ""
-    },
-    "PASTEBIN_API_KEY": {
-      "description": "API key for Pastebin",
-      "required": false,
-      "default": ""
     }
   },
 
