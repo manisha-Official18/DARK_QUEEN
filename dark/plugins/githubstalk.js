@@ -35,28 +35,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 `;
 
          // Sending the image with caption
-          const sentMsg = await conn.sendMessage(from, {
+await conn.sendMessage(from, { image: { url: data.avatar_url }, caption: userInfo }, { quoted: mek });
 
-
-          text: userInfo,
-          contextInfo: {
-
-          forwardingScore: 999,
-          isForwarded: true,
-          forwardedNewsletterMessageInfo: {
-          newsletterName: '𝐌𝐚𝐧𝐢𝐬𝐡𝐚 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥ᵐˢ',
-          newsletterJid: "@newsletter",
-          },
-          externalAdReply: {
-              title: `DARK_QUEEN Github Information`,
-              body: `Can't Find The Information. You Can Try Another Way. Error Code 4043`,
-              thumbnailUrl: data.avatar_url,
-              sourceUrl: ``,
-              mediaType: 1,
-              renderLargerThumbnail: true
-              }
-                  }
-              }, { quoted: mek });
     } catch (e) {
         console.log(e);
         reply(`єяяσя ƒєт¢нιηg ∂αтα: ${e.response ? e.response.data.message : e.message}`);
