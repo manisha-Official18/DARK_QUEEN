@@ -3,7 +3,7 @@
 const { cmd } = require('../../command')
 const { fetchJson } = require('../functions')
 
-const apilink = 'https://www.dark-yasiya-api.site' // API LINK ( DO NOT CHANGE THIS!! )
+const apilink = 'https://www.dark-yasiya-api.site/download/xvideo?url=https://www.xvideos.com/video.imikdcv7fad/vivthomas_-_nikita_undresses_sweet_cat_and_eats_her_sweet_pussy' // API LINK ( DO NOT CHANGE THIS!! )
 
 
 
