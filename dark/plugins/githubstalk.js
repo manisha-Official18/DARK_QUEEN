@@ -1,6 +1,6 @@
 const axios = require('axios');
-const config = require('../config');
-const { cmd, commands } = require('../command');
+const config = require('../../config');
+const { cmd, commands } = require('../../command');
 
 cmd({
     pattern: "githubstalk",
@@ -20,7 +20,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const response = await axios.get(apiUrl);
         const data = response.data;
 
-        let userInfo = `     🔍_*SAHAS-MD GIT STALK*_🔎
+        let userInfo = `     🔍_*DARK_QUEEN GIT STALK*_🔎
         
 👤 *Username*: ${data.name || data.login}
 🔗 *Github Url*:(${data.html_url})
@@ -31,7 +31,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 📅 *Created At*: ${new Date(data.created_at).toDateString()}
 🔭 *Public Gists*: ${data.public_gists}
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*
+> *©ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ*
 `;
 
          // Sending the image with caption
@@ -44,11 +44,11 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-          newsletterName: '👾 ＳＡＨＡＳ  |   𝚃𝙴𝙲𝙷 ジ',
-          newsletterJid: "120363296605464049@newsletter",
+          newsletterName: '𝐌𝐚𝐧𝐢𝐬𝐡𝐚 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥ᵐˢ',
+          newsletterJid: "@newsletter",
           },
           externalAdReply: {
-              title: `SAHAS-MD Github Information`,
+              title: `DARK_QUEEN Github Information`,
               body: `Can't Find The Information. You Can Try Another Way. Error Code 4043`,
               thumbnailUrl: data.avatar_url,
               sourceUrl: ``,
