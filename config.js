@@ -51,7 +51,7 @@ module.exports = {
   START_MSG: process.env.START_MSG || `╭──────────────⊷❒\n\n*🩷WELCOME TO DARK_QUEEN WHATSAPP BOT.*\n\n┗━┫*⚬°❀𝐌❀°⚬*┣━⁠⁠✾\n\n*🩷DARK_QUEEN is a fast growing Whatsapp bot.*\n\n┗━┫*⚬°❀𝐀❀°⚬*┣━⁠⁠✾\n\n *🩷Your account is now active.*\n\n┗━┫*⚬°❀𝐍❀°⚬*┣━⁠⁠✾\n\n⁠*🩷This is your log number. Avoid using commands here⚠️.*\n\n┗━┫*⚬°❀𝐈❀°⚬*┣━⁠⁠⁠⁠✾\n\n*🩷Join My WhatsApp Channel:* https://whatsapp.com/channel/0029Vb1AB158F2pCzMyd8O1B\n\n┗━┫*⚬°❀𝐘❀°⚬*┣━⁠⁠⁠⁠✾\n\n*🩷CREATED BY MANISHA SASMITHA.*\n\n┗━┫*⚬°❀𝐀❀°⚬*┣━⁠⁠⁠⁠✾\n\n╰──────────────⊷❒` ,
 
   ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/zvx007.jpg",
-  MENU_IMG: process.env.MENU_IMG || "https://files.catbox.moe/zvx007.jpg",
+  MENU_IMG: process.env.MENU_IMG || "https://i.ibb.co/hRw1XK4/image.png",
   MENU_MSG: process.env.MENU_MSG || `Menumsg`,
     MENU_MS: process.env.MENU_MS || `menu 2`,
 
