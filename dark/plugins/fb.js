@@ -82,18 +82,18 @@ cmd(
       if (hd) {
         await manisha.sendMessage(
           from,
-          { video: { url: hd }, caption: "----------HD VIDEO----------" },
+          { video: { url: hd }, caption: "HD VIDEO" },
           { quoted: mek }
         );
         await manisha.sendMessage(
           from,
-          { video: { url: sd }, caption: "----------SD VIDEO----------" },
+          { video: { url: sd }, caption: "SD VIDEO" },
           { quoted: mek }
         );
       } else if (sd) {
         await manisha.sendMessage(
           from,
-          { video: { url: sd }, caption: "----------SD VIDEO----------" },
+          { video: { url: sd }, caption: "SD VIDEO" },
           { quoted: mek }
         );
       } else {
