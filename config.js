@@ -31,13 +31,4 @@ module.exports = {
  MOVIE_API_KEY: process.env.MOVIE_API_KEY || "sky|decd54b4fa030634e54d6c87fdffbb95f0bb9fb5",
 //==============START MSG================
   START_MSG: process.env.START_MSG || `╭──────────────⊷❒\n\n*🩷WELCOME TO DARK_QUEEN WHATSAPP BOT.*\n\n┗━┫*⚬°❀𝐌❀°⚬*┣━⁠⁠✾\n\n*🩷DARK_QUEEN is a fast growing Whatsapp bot.*\n\n┗━┫*⚬°❀𝐀❀°⚬*┣━⁠⁠✾\n\n *🩷Your account is now active.*\n\n┗━┫*⚬°❀𝐍❀°⚬*┣━⁠⁠✾\n\n⁠*🩷This is your log number. Avoid using commands here⚠️.*\n\n┗━┫*⚬°❀𝐈❀°⚬*┣━⁠⁠⁠⁠✾\n\n*🩷Join My WhatsApp Channel:* https://whatsapp.com/channel/0029Vb1AB158F2pCzMyd8O1B\n\n┗━┫*⚬°❀𝐘❀°⚬*┣━⁠⁠⁠⁠✾\n\n*🩷CREATED BY MANISHA SASMITHA.*\n\n┗━┫*⚬°❀𝐀❀°⚬*┣━⁠⁠⁠⁠✾\n\n╰──────────────⊷❒` ,
-//===============ALIVE,MENU IMG=================
-  ALIVE_IMG: process.env.ALIVE_IMG || "https://raw.githubusercontent.com/manisha-Official18/TEST/refs/heads/main/alive.jpg",
-  RUNTIME_IMG: process.env.RUNTIME_IMG || "https://raw.githubusercontent.com/manisha-Official18/TEST/refs/heads/main/runtime.jpg",
-  REPO_IMG: process.env.REPO_IMG || "https://raw.githubusercontent.com/manisha-Official18/TEST/refs/heads/main/repo.jpg",
-  SYSTEM_IMG: process.env.SYSTEM_IMG || "https://raw.githubusercontent.com/manisha-Official18/TEST/refs/heads/main/system.jpg",
-  OWNER_IMG: process.env.OWNER_IMG || "https://raw.githubusercontent.com/manisha-Official18/TEST/refs/heads/main/owner.jpg",
-  ALLMENU_IMG: process.env.ALLMENU_IMG || "https://raw.githubusercontent.com/manisha-Official18/TEST/refs/heads/main/allmenu.jpg",
-  MENU_IMG: process.env.MENU_IMG || "https://raw.githubusercontent.com/manisha-Official18/TEST/refs/heads/main/menu.jpg",
-
 };
