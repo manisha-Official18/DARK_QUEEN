@@ -32,10 +32,13 @@ You can see the Paire Code at **[PAIR CODE](https://replit.com/@manisha1718mani/
 
 <img src="./dark/img/2006_7.gif" alt="Loading..." width="320"/>
 
-
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+       
 
 <p align="center">
 
 <img src="https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg" alt="nz" width="700"/>
 
 </p>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+       
