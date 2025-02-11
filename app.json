@@ -1,6 +1,6 @@
 {
   "name": "DARK_QUEEN",
-  "description": "Javascript WhatsApp bot created by manisha sasmitha",
+  "description": "",
   "logo": "https://files.catbox.moe/v1k9r3.jpg",
   "keywords": ["bot"],
   "success_url": "/",
@@ -40,11 +40,6 @@
       "description": "Put your alive msg here.",
       "required": true,
       "default": ""
-    },
-    "AUTO_VOICE": {
-      "description": "Auto voice feature (true/false)",
-      "required": false,
-      "default": "false"
     },
     "ANTI_BAD_WORDS_ENABLED": {
       "description": "Enable anti bad words (true/false)",
@@ -109,17 +104,17 @@
     "ELEVENLABS_API_KEY": {
       "description": "API key for Eleven Labs",
       "required": false,
-      "default": "sk_6438bcc100d96458f8de0602aec662f4ba14b905fd090ad3"
+      "default": ""
     },
     "SHODAN_API": {
       "description": "API key for Shodan",
       "required": false,
-      "default": "cbCkidr6qd7AFVaYs56MuCouGfM8gFki"
+      "default": ""
     },
     "PEXELS_API_KEY": {
       "description": "API key for Pexels",
       "required": false,
-      "default": "39WCzaHAX939xiH22NCddGGvzp7cgbu1VVjeYUaZXyHUaWlL1LFcVFxH"
+      "default": ""
     },
     "OMDB_API_KEY": {
       "description": "API key for OMDB",
