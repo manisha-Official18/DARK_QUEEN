@@ -81,7 +81,7 @@ cmd({
           externalAdReply: {
               title: `Runtime ⏰`,
               body: `Can't Find The Information. You Can Try Another Way. Error Code 4043`,
-              thumbnailUrl: `https://raw.githubusercontent.com/manisha-Official18/TEST/refs/heads/main/runtime.jpg`,
+              thumbnailUrl: config.RUNTIME_IMG,
               sourceUrl: ``,
               mediaType: 1,
               renderLargerThumbnail: true
@@ -175,7 +175,7 @@ cmd({
           externalAdReply: {
               title: `I'm Alive Now 👨‍💻`,
               body: `Can't Find The Information. You Can Try Another Way. Error Code 4043`,
-              thumbnailUrl: `https://raw.githubusercontent.com/manisha-Official18/TEST/refs/heads/main/alive.jpg`,
+              thumbnailUrl: config.ALIVE_IMG,
               sourceUrl: ``,
               mediaType: 1,
               renderLargerThumbnail: true
@@ -273,7 +273,7 @@ const sentMsg = await conn.sendMessage(from, {
           externalAdReply: {
               title: `DARK_QUEEN Menu List`,
               body: `Can't Find The Information. You Can Try Another Way. Error Code 4043`,
-              thumbnailUrl: `https://raw.githubusercontent.com/manisha-Official18/TEST/refs/heads/main/menu.jpg`,
+              thumbnailUrl: config.MENU_IMG,
               sourceUrl: ``,
               mediaType: 1,
               renderLargerThumbnail: true
@@ -721,7 +721,7 @@ menu[commands[i].category] += `.${commands[i].pattern}\n`;
           externalAdReply: {
               title: `DARK_QUEEN Menu List`,
               body: `Can't Find The Information. You Can Try Another Way. Error Code 4043`,
-              thumbnailUrl: `https://raw.githubusercontent.com/manisha-Official18/TEST/refs/heads/main/allmenu.jpg`,
+              thumbnailUrl: config.ALLMENU_IMG,
               sourceUrl: ``,
               mediaType: 1,
               renderLargerThumbnail: true
@@ -808,7 +808,7 @@ cmd({
           externalAdReply: {
               title: `DARK_QUEEN Owner Information`,
               body: `Can't Find The Information. You Can Try Another Way. Error Code 4043`,
-              thumbnailUrl: `https://raw.githubusercontent.com/manisha-Official18/TEST/refs/heads/main/owner.jpg`,
+              thumbnailUrl: config.OWNER_IMG,
               sourceUrl: ``,
               mediaType: 1,
               renderLargerThumbnail: true
@@ -896,7 +896,7 @@ cmd({
           externalAdReply: {
               title: `DARK_QUEEN Repo Informations`,
               body: `Can't Find The Information. You Can Try Another Way. Error Code 4043`,
-              thumbnailUrl: `https://raw.githubusercontent.com/manisha-Official18/TEST/refs/heads/main/repo.jpg`,
+              thumbnailUrl: config.REPO_IMG,
               sourceUrl: ``,
               mediaType: 1,
               renderLargerThumbnail: true
@@ -980,7 +980,7 @@ cmd({
           externalAdReply: {
               title: `DARK_QUEEN System Information`,
               body: `Can't Find The Information. You Can Try Another Way. Error Code 4043`,
-              thumbnailUrl: `https://raw.githubusercontent.com/manisha-Official18/TEST/refs/heads/main/system.jpg`,
+              thumbnailUrl: config.SYSTEM_IMG,
               sourceUrl: ``,
               mediaType: 1,
               renderLargerThumbnail: true
