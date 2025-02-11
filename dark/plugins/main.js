@@ -81,7 +81,7 @@ cmd({
           externalAdReply: {
               title: `Runtime ⏰`,
               body: `Can't Find The Information. You Can Try Another Way. Error Code 4043`,
-              thumbnailUrl: `https://files.catbox.moe/v1k9r3.jpg`,
+              thumbnailUrl: `https://pomf2.lain.la/f/zxbep8y.jpg`,
               sourceUrl: ``,
               mediaType: 1,
               renderLargerThumbnail: true
@@ -175,7 +175,7 @@ cmd({
           externalAdReply: {
               title: `I'm Alive Now 👨‍💻`,
               body: `Can't Find The Information. You Can Try Another Way. Error Code 4043`,
-              thumbnailUrl: `https://files.catbox.moe/v1k9r3.jpg`,
+              thumbnailUrl: `https://pomf2.lain.la/f/zxbep8y.jpg`,
               sourceUrl: ``,
               mediaType: 1,
               renderLargerThumbnail: true
@@ -340,7 +340,7 @@ menu[commands[i].category] += `.${commands[i].pattern}\n`;
           externalAdReply: {
               title: `DARK_QUEEN Menu List`,
               body: `Can't Find The Information. You Can Try Another Way. Error Code 4043`,
-              thumbnailUrl: `https://files.catbox.moe/v1k9r3.jpg`,
+              thumbnailUrl: `https://pomf2.lain.la/f/zxbep8y.jpg`,
               sourceUrl: ``,
               mediaType: 1,
               renderLargerThumbnail: true
@@ -427,7 +427,7 @@ cmd({
           externalAdReply: {
               title: `DARK_QUEEN Owner Information`,
               body: `Can't Find The Information. You Can Try Another Way. Error Code 4043`,
-              thumbnailUrl: `https://files.catbox.moe/v1k9r3.jpg`,
+              thumbnailUrl: `https://pomf2.lain.la/f/zxbep8y.jpg`,
               sourceUrl: ``,
               mediaType: 1,
               renderLargerThumbnail: true
@@ -515,7 +515,7 @@ cmd({
           externalAdReply: {
               title: `DARK_QUEEN Repo Informations`,
               body: `Can't Find The Information. You Can Try Another Way. Error Code 4043`,
-              thumbnailUrl: `https://files.catbox.moe/v1k9r3.jpg`,
+              thumbnailUrl: `https://pomf2.lain.la/f/zxbep8y.jpg`,
               sourceUrl: ``,
               mediaType: 1,
               renderLargerThumbnail: true
@@ -529,94 +529,6 @@ cmd({
       }
     });
 
-
-cmd({
-      pattern: "about",
-      desc: "To get the bot informations.",
-      category: "main",
-      react: "ℹ️",
-      filename: __filename
-    },
-    
-    async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
-    try{
-          const senderNumber = m.sender;
-          const isGroup = m.isGroup || false;
-
-          // Check access permissions
-          if (!checkAccess(senderNumber, isGroup)) {
-              if (blacklistedJIDs.includes(senderNumber)) {
-                  return reply("*🚫 You are blacklisted. Access denied.*");
-              } else {
-                  return reply("*😢 Access denied. You don't have permission to use this command.🎁 Change Bot Mode!*");
-              }
-          }
-
-          // System and memory information
-          const uptime = runtime(process.uptime());
-          const memoryUsage = (process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2);
-          const totalMemory = Math.round(os.totalmem() / 1024 / 1024);
-          const cpuArch = os.arch();
-          const cpuCores = os.cpus().length;
-          const systemType = os.type();
-          const freeMemory = (os.freemem() / 1024 / 1024).toFixed(2);
-
-          // Custom message for Render platform
-          let platformMessage = '';
-          if (platformName === 'Render') {
-              platformMessage = '\n🌟 You are currently hosting on Render! Enjoy seamless deployments.';
-          }
-
-          // Status message to be sent
-
-
-          let desc = `👋 𝐇𝐄𝐋𝐋𝐎𝐖 𝐓𝐇𝐄𝐈𝐑 ${senderNumber}
-
-𝐈 𝐀𝐌 𝐒𝐀𝐇𝐀𝐒-𝐌𝐃 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐁𝐎𝐓
-
-𝐂𝐑𝐄𝐀𝐓𝐄𝐃 𝐁𝐘 𝐒𝐀𝐇𝐀𝐒 𝐓𝐄𝐂𝐇 (𝐒𝐀𝐇𝐀𝐒 𝐍𝐄𝐓𝐇𝐒𝐀𝐑𝐀)..
-           
-ɢɪᴛʜᴜʙ :    
-             
-ʏᴏᴜᴛᴜʙᴇ : https://www.youtube.com/@Sahas_Tech
-      
-ᴡʜᴀᴛꜱᴀᴘᴘ ᴄʜᴀɴɴᴇʟ : https://whatsapp.com/channel/0029VaiTjMlK5cDLek3bB533
-
-тнαηкѕ ƒσя υѕιηg ʂαԋαʂ-м∂ ωнαтѕαρρ вσт м∂`
-
-
-
-
-
-          // Sending the image with caption
-          const sentMsg = await conn.sendMessage(from, {
-
-
-          text: desc,
-          contextInfo: {
-
-          forwardingScore: 999,
-          isForwarded: true,
-          forwardedNewsletterMessageInfo: {
-          newsletterName: '👾 ＳＡＨＡＳ  |   𝚃𝙴𝙲𝙷 ジ',
-          newsletterJid: "120363296605464049@newsletter",
-          },
-          externalAdReply: {
-              title: `SAHAS-MD About`,
-              body: `Can't Find The Information. You Can Try Another Way. Error Code 4043`,
-              thumbnailUrl: `https://pomf2.lain.la/f/5fz9fk69.jpg`,
-              sourceUrl: ``,
-              mediaType: 1,
-              renderLargerThumbnail: true
-              }
-                  }
-              }, { quoted: mek });
-
-      } catch (e) {
-          console.error(e);
-          reply(`*Error:* ${e.message}`);
-      }
-    });
 
 
 cmd({
@@ -687,7 +599,7 @@ cmd({
           externalAdReply: {
               title: `DARK_QUEEN System Information`,
               body: `Can't Find The Information. You Can Try Another Way. Error Code 4043`,
-              thumbnailUrl: `https://files.catbox.moe/v1k9r3.jpg`,
+              thumbnailUrl: `https://pomf2.lain.la/f/zxbep8y.jpg`,
               sourceUrl: ``,
               mediaType: 1,
               renderLargerThumbnail: true
