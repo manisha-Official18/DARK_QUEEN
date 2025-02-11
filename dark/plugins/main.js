@@ -81,7 +81,7 @@ cmd({
           externalAdReply: {
               title: `Runtime ⏰`,
               body: `Can't Find The Information. You Can Try Another Way. Error Code 4043`,
-              thumbnailUrl: `https://raw.githubusercontent.com/manisha-Official18/TEST/refs/heads/main/runtime.jpg?token=GHSAT0AAAAAAC6Y7XR6Y2ZXVDV27JVVUNDIZ5LRZWA`,
+              thumbnailUrl: `https://raw.githubusercontent.com/manisha-Official18/TEST/refs/heads/main/runtime.jpg`,
               sourceUrl: ``,
               mediaType: 1,
               renderLargerThumbnail: true
@@ -175,7 +175,7 @@ cmd({
           externalAdReply: {
               title: `I'm Alive Now 👨‍💻`,
               body: `Can't Find The Information. You Can Try Another Way. Error Code 4043`,
-              thumbnailUrl: `https://raw.githubusercontent.com/manisha-Official18/TEST/refs/heads/main/alive.jpg?token=GHSAT0AAAAAAC6Y7XR764E7H26L7G4BXX4SZ5LR2XA`,
+              thumbnailUrl: `https://raw.githubusercontent.com/manisha-Official18/TEST/refs/heads/main/alive.jpg`,
               sourceUrl: ``,
               mediaType: 1,
               renderLargerThumbnail: true
@@ -273,7 +273,7 @@ const sentMsg = await conn.sendMessage(from, {
           externalAdReply: {
               title: `DARK_QUEEN Menu List`,
               body: `Can't Find The Information. You Can Try Another Way. Error Code 4043`,
-              thumbnailUrl: `https://raw.githubusercontent.com/manisha-Official18/TEST/refs/heads/main/menu.jpg?token=GHSAT0AAAAAAC6Y7XR6OASLNMDM62MWFAQMZ5LR3SQ`,
+              thumbnailUrl: `https://raw.githubusercontent.com/manisha-Official18/TEST/refs/heads/main/menu.jpg`,
               sourceUrl: ``,
               mediaType: 1,
               renderLargerThumbnail: true
@@ -721,7 +721,7 @@ menu[commands[i].category] += `.${commands[i].pattern}\n`;
           externalAdReply: {
               title: `DARK_QUEEN Menu List`,
               body: `Can't Find The Information. You Can Try Another Way. Error Code 4043`,
-              thumbnailUrl: `https://raw.githubusercontent.com/manisha-Official18/TEST/refs/heads/main/allmenu.jpg?token=GHSAT0AAAAAAC6Y7XR73E2AGHGKRBHSNONQZ5LR5CA`,
+              thumbnailUrl: `https://raw.githubusercontent.com/manisha-Official18/TEST/refs/heads/main/allmenu.jpg`,
               sourceUrl: ``,
               mediaType: 1,
               renderLargerThumbnail: true
@@ -808,7 +808,7 @@ cmd({
           externalAdReply: {
               title: `DARK_QUEEN Owner Information`,
               body: `Can't Find The Information. You Can Try Another Way. Error Code 4043`,
-              thumbnailUrl: `https://raw.githubusercontent.com/manisha-Official18/TEST/refs/heads/main/owner.jpg?token=GHSAT0AAAAAAC6Y7XR7X37B6DJUEJCQGBMEZ5LR6KQ`,
+              thumbnailUrl: `https://raw.githubusercontent.com/manisha-Official18/TEST/refs/heads/main/owner.jpg`,
               sourceUrl: ``,
               mediaType: 1,
               renderLargerThumbnail: true
@@ -896,7 +896,7 @@ cmd({
           externalAdReply: {
               title: `DARK_QUEEN Repo Informations`,
               body: `Can't Find The Information. You Can Try Another Way. Error Code 4043`,
-              thumbnailUrl: `https://raw.githubusercontent.com/manisha-Official18/TEST/refs/heads/main/repo.jpg?token=GHSAT0AAAAAAC6Y7XR7KWMESFMUBINLRXUOZ5LR7SQ`,
+              thumbnailUrl: `https://raw.githubusercontent.com/manisha-Official18/TEST/refs/heads/main/repo.jpg`,
               sourceUrl: ``,
               mediaType: 1,
               renderLargerThumbnail: true
@@ -980,7 +980,7 @@ cmd({
           externalAdReply: {
               title: `DARK_QUEEN System Information`,
               body: `Can't Find The Information. You Can Try Another Way. Error Code 4043`,
-              thumbnailUrl: `https://raw.githubusercontent.com/manisha-Official18/TEST/refs/heads/main/system.jpg?token=GHSAT0AAAAAAC6Y7XR74PSA4TQR7YTKO3DKZ5LSDBA`,
+              thumbnailUrl: `https://raw.githubusercontent.com/manisha-Official18/TEST/refs/heads/main/system.jpg`,
               sourceUrl: ``,
               mediaType: 1,
               renderLargerThumbnail: true
