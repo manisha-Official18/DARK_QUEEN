@@ -7,8 +7,8 @@ const {cmd , commands} = require('../../command')
 //============= menu command ================
 
 const os = require("os")
-const {runtime} = require('../lib/functions')
-const {sleep} = require('../lib/functions')
+const {runtime} = require('../functions')
+const {sleep} = require('../functions')
 
 cmd({
     pattern: "alive",
@@ -19,7 +19,7 @@ cmd({
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-return await conn.sendMessage(from,{image: {url: config.ALIVE_IMG},caption: config.ALIVE_MSG},{quoted: mek})
+return await conn.sendMessage(from,{image: {url: },caption: config.ALIVE_MSG},{quoted: mek})
 }catch(e){
 console.log(e)
 reply(`${e}`)
@@ -599,7 +599,7 @@ ${menu.tools}
 *🧚‍♂️ᴅᴀʀᴋ_Qᴜᴇᴇɴ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ🧚‍♂️*
 `
 
-return await conn.sendMessage(from,{image: {url: `https://files.catbox.moe/v1k9r3.jpg`},caption:madeMenu},{quoted: mek})
+return await conn.sendMessage(from,{image: {url: ``},caption:madeMenu},{quoted: mek})
 }catch(e){
 console.log(e)
 reply(`Error`)
