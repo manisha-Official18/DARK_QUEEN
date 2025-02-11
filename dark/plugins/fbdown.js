@@ -1,6 +1,5 @@
-const { cmd, commands } = require("../command");
-const getFbVideoInfo = require("fb-downloader-scrapper");
-
+const { cmd, commands } = require("../../command");
+const { default: getFbVideoInfo } = import('fb-downloader-scrapper');
 cmd(
   {
     pattern: "fb",
@@ -11,7 +10,7 @@ cmd(
     filename: __filename,
   },
   async (
-    robin,
+    manisha,
     mek,
     m,
     {
@@ -60,18 +59,20 @@ cmd(
 
       // Prepare and send the message with video details
       let desc = `
-*❤️ ROBIN FB VIDEO DOWNLOADER ❤️*
+╔═══════✮❁•°♛°•❁✮════════╗
+ 𝑫𝑨𝑹𝑲_𝑸𝑼𝑬𝑬𝑵 𝑭𝑩 𝑽𝑰𝑫𝑬𝑶 𝑫𝑶𝑾𝑵𝑳𝑶𝑨𝑫𝑬𝑹
+╚═══════✮❁•°♛°•❁✮════════╝
+╔═══════✮❁•°❀°•❁✮════════╗
+⭕➥Title:* ${title || "Unknown"}
+⭕➥Quality:* ${hd ? "HD Available" : "SD Only"}
 
-👻 *Title*: ${title || "Unknown"}
-👻 *Quality*: ${hd ? "HD Available" : "SD Only"}
-
-𝐌𝐚𝐝𝐞 𝐛𝐲 𝐒_𝐈_𝐇_𝐈_𝐋_𝐄_𝐋
-        `;
-      await robin.sendMessage(
+> *©ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ*
+╚═══════✮❁•°❀°•❁✮════════╝`;
+      await manisha.sendMessage(
         from,
         {
           image: {
-            url: "https://raw.githubusercontent.com/Dark-Robin/Bot-Helper/refs/heads/main/autoimage/Bot%20fb-1.jpg",
+            url: "https://raw.githubusercontent.com/manisha-Official18/TEST/refs/heads/main/fb_download.jpg",
           },
           caption: desc,
         },
@@ -79,27 +80,27 @@ cmd(
       );
       // Send the video if available
       if (hd) {
-        await robin.sendMessage(
+        await manisha.sendMessage(
           from,
           { video: { url: hd }, caption: "----------HD VIDEO----------" },
           { quoted: mek }
         );
-        await robin.sendMessage(
+        await manisha.sendMessage(
           from,
           { video: { url: sd }, caption: "----------SD VIDEO----------" },
           { quoted: mek }
         );
       } else if (sd) {
-        await robin.sendMessage(
+        await manisha.sendMessage(
           from,
           { video: { url: sd }, caption: "----------SD VIDEO----------" },
           { quoted: mek }
         );
       } else {
-        return reply("*No downloadable video found!* 🌚");
+        return reply("*No downloadable video found!*");
       }
 
-      return reply("*Thanks for using my bot* 🌚❤️");
+      return reply("*Thanks for using my bot*");
     } catch (e) {
       console.error(e);
       reply(`*Error:* ${e.message || e}`);
