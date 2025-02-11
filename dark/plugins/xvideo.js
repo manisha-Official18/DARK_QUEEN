@@ -3,7 +3,7 @@
 const { cmd } = require('../../command')
 const { fetchJson } = require('../functions')
 
-const apilink = '' // API LINK ( DO NOT CHANGE THIS!! )
+const apilink = 'https://www.dark-yasiya-api.site' // API LINK ( DO NOT CHANGE THIS!! )
 
 
 
