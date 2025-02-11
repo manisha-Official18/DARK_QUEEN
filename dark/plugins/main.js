@@ -24,15 +24,20 @@ let desc = `╔═══════✮❁•°♛°•❁✮══════�
 ❖◦ *ʙᴏᴛ ɴᴀᴍᴇ* : ᴅᴀʀᴋ_Qᴜᴇᴇɴ
 ❖◦ *ᴄʀᴇᴀᴛᴏʀ* : ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ
 ❖◦ *ᴠᴇʀsɪᴏɴs* : 1 
+
 ɪ ᴀᴍ ᴀɴ ᴀᴜᴛᴏᴍᴀᴛᴇᴅ ꜱʏꜱᴛᴇᴍ *ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ* ᴛʜᴀᴛ ᴄᴀɴ ʜᴇʟᴘ ᴛᴏ ᴅᴏ ꜱᴏᴍᴇᴛʜɪɴɢ, ꜱᴇᴀʀᴄʜ ᴀɴᴅ ɢᴇᴛ ᴅᴀᴛᴀ / ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ᴏɴʟʏ ᴛʜʀᴏᴜɢʜ *ᴡʜᴀᴛꜱᴀᴘᴘ.🪀* 
 ʙᴇғᴏʀᴇ ɢᴏɪɴɢ ᴛᴏ ᴛʜᴇ ғᴇᴀᴛᴜʀᴇs ᴍᴇɴᴜ, ᴘʟᴇᴀsᴇ ʀᴇᴀᴅ ᴛʜᴇ ʀᴜʟᴇs ғᴏʀ ᴜsɪɴɢ ᴛʜᴇ ʙᴏᴛ
 *𝟷. sᴘᴀᴍ ʙᴏᴛs ᴀʀᴇ ᴘʀᴏʜɪʙɪᴛᴇᴅ.*
 *𝟸. ᴄᴀʟʟɪɴɢ ʙᴏᴛs ɪs ᴘʀᴏʜɪʙɪᴛᴇᴅ.* 
 *𝟹. ᴄᴀʟʟɪɴɢ ᴏᴡɴᴇʀ ɴᴜᴍʙᴇʀ ɪs ᴘʀᴏʜɪʙɪᴛᴇᴅ.*
-*𝟺. sᴘᴀᴍ ᴛᴏ ɴᴏ ᴏᴡɴᴇʀ ɪs ᴘʀᴏʜɪʙɪᴛᴇᴅ.* 
+*𝟺. sᴘᴀᴍ ᴛᴏ ɴᴏ ᴏᴡɴᴇʀ ɪs ᴘʀᴏʜɪʙɪᴛᴇᴅ.*
+
 *Channel:* https://whatsapp.com/channel/0029Vb1AB158F2pCzMyd8O1B
+
 🌟 𝕋𝕪𝕡𝕖 .𝕞𝕖𝕟𝕦 𝕋𝕠 𝔾𝕖𝕥 𝔹𝕠𝕥 𝕌𝕤𝕖𝕣 𝕄𝕖𝕟𝕦
-> *©ᴅᴀʀᴋ_Qᴜᴇᴇɴ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ*
+
+
+> *©ᴄʀᴇᴀᴛᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ*
 ╚═══════✮❁•°♛°•❁✮════════╝`
 
 return await conn.sendMessage(from, { image: { url: `https://files.catbox.moe/l2ofp9.jpg`}, caption: desc }, { quoted: mek })
@@ -79,11 +84,11 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
 🌟 ℝ𝔼ℙ𝕃𝕐 𝕥𝕙𝕖 ℕ𝕒𝕞𝕓𝕖𝕣 𝕐𝕠𝕦 𝕨𝕒𝕟𝕥 𝕥𝕠 𝕤𝕖𝕝𝕖𝕔𝕥
 
-💻 *GitHub:* 
+💻 *GitHub:* https://github.com/manisha-Official18
 
 👩‍💻 *Channel:* https://whatsapp.com/channel/0029Vb1AB158F2pCzMyd8O1B
 
-> 𝐂𝐫𝐞𝐚𝐭𝐞𝐝 𝐁𝐲 - : ©ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ`;
+> *©ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ*`;
 
         const vv = await conn.sendMessage(from, { image: { url: "https://files.catbox.moe/m27q4s.jpg"}, caption: desc }, { quoted: mek });
 
@@ -102,9 +107,9 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 │ • *restart* 
 ╰──────────────────●●►
 
-👩‍💻 *Channel:* https://whatsapp.com/channel/0029Vb33Gmr6hENhFseLgF2f
+👩‍💻 *Channel:* https://whatsapp.com/channel/0029Vb1AB158F2pCzMyd8O1B
 
-> ᴄʀᴇᴀᴛᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ`);
+> *©ᴄʀᴇᴀᴛᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ*`);
                         break;
                     case '2':               
                         reply(`*◈╾──CONVERT MENU──╼◈*
@@ -119,9 +124,9 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 │ • *url* 
 ╰──────────────────●●►
 
-👩‍💻 *Channel:* https://whatsapp.com/channel/0029Vb33Gmr6hENhFseLgF2f
+👩‍💻 *Channel:* https://whatsapp.com/channel/0029Vb1AB158F2pCzMyd8O1B
 
-> ᴄʀᴇᴀᴛᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ`);
+> *©ᴄʀᴇᴀᴛᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ*`);
                         break;
                     case '3':               
                         reply(`*◈╾──AI MENU──╼◈*
@@ -130,9 +135,9 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 │ • *ai* 
 ╰──────────────────●●►
 
-👩‍💻 *Channel:* https://whatsapp.com/channel/0029Vb33Gmr6hENhFseLgF2f
+👩‍💻 *Channel:* https://whatsapp.com/channel/0029Vb1AB158F2pCzMyd8O1B
 
-> ᴄʀᴇᴀᴛᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ`);
+> *©ᴄʀᴇᴀᴛᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ*`);
                         break;
                     case '4':               
                         reply(`*◈╾──SEARCH MENU──╼◈*
@@ -141,9 +146,9 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 │ • *yts* 
 ╰──────────────────●●►
 
-👩‍💻 *Channel:* https://whatsapp.com/channel/0029Vb33Gmr6hENhFseLgF2f
+👩‍💻 *Channel:* https://whatsapp.com/channel/0029Vb1AB158F2pCzMyd8O1B
 
-> ᴄʀᴇᴀᴛᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ`);
+> *©ᴄʀᴇᴀᴛᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ*`);
                         break;
                     case '5':               
                         reply(`*◈╾──DOWNLOAD MENU──╼◈*
@@ -158,9 +163,9 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 │ • *song* 
 ╰──────────────────●●►
 
-👩‍💻 *Channel:* https://whatsapp.com/channel/0029Vb33Gmr6hENhFseLgF2f
+👩‍💻 *Channel:* https://whatsapp.com/channel/0029Vb1AB158F2pCzMyd8O1B
 
-> ᴄʀᴇᴀᴛᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ`);
+> *©ᴄʀᴇᴀᴛᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ*`);
                         break;
                     case '6':               
                         reply(`*◈╾──FUN MENU──╼◈*
@@ -182,9 +187,9 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 │ • *quote* 
 ╰──────────────────●●►
 
-👩‍💻 *Channel:* https://whatsapp.com/channel/0029Vb33Gmr6hENhFseLgF2f
+👩‍💻 *Channel:* https://whatsapp.com/channel/0029Vb1AB158F2pCzMyd8O1B
 
-> ᴄʀᴇᴀᴛᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ`);
+> *©ᴄʀᴇᴀᴛᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ*`);
                         break;
                     case '7':               
                         reply(`*◈╾──MAIN MENU──╼◈*
@@ -214,9 +219,9 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 │ • *runtime* 
 ╰──────────────────●●►
 
-👩‍💻 *Channel:* https://whatsapp.com/channel/0029Vb33Gmr6hENhFseLgF2f
+👩‍💻 *Channel:* https://whatsapp.com/channel/0029Vb1AB158F2pCzMyd8O1B
 
-> ᴄʀᴇᴀᴛᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ`);
+> *©ᴄʀᴇᴀᴛᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ*`);
                         break;
                     case '8':               
                         reply(`*◈╾──GROUP MENU──╼◈*
@@ -297,9 +302,9 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 │ • *del* 
 ╰──────────────────●●►
 
-👩‍💻 *Channel:* https://whatsapp.com/channel/0029Vb33Gmr6hENhFseLgF2f
+👩‍💻 *Channel:* https://whatsapp.com/channel/0029Vb1AB158F2pCzMyd8O1B
 
-> ᴄʀᴇᴀᴛᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ`);
+> *©ᴄʀᴇᴀᴛᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ*`);
                         break;
                     case '9':               
                         reply(`*◈╾──OTHER MENU──╼◈*
@@ -308,9 +313,9 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 │ • *weather* 
 ╰──────────────────●●►
 
-👩‍💻 *Channel:* https://whatsapp.com/channel/0029Vb33Gmr6hENhFseLgF2f
+👩‍💻 *Channel:* https://whatsapp.com/channel/0029Vb1AB158F2pCzMyd8O1B
 
-> ᴄʀᴇᴀᴛᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ`);
+> *©ᴄʀᴇᴀᴛᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ*`);
 
                         break;
                     case '10':               
@@ -356,9 +361,9 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 │ • *password* 
 ╰──────────────────●●►
 
-👩‍💻 *Channel:* https://whatsapp.com/channel/0029Vb33Gmr6hENhFseLgF2f
+👩‍💻 *Channel:* https://whatsapp.com/channel/0029Vb1AB158F2pCzMyd8O1B
 
-> ᴄʀᴇᴀᴛᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ`);
+> *©ᴄʀᴇᴀᴛᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ*`);
 
 
                         break;
@@ -391,7 +396,7 @@ let desc = `*📍REPO LINK ❤️‍🔥👇*
 
 🩷◦ https://github.com/manisha-Official18
 
-*©ᴅᴀʀᴋ_Qᴜᴇᴇɴ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ*
+> *©ᴄʀᴇᴀᴛᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ*
 
 `
 await conn.sendMessage(from,{image:{url: `https://files.catbox.moe/myvxa5.jpg`},caption:desc},{quoted:mek});
@@ -595,7 +600,7 @@ ${menu.other}
   ───────
 ${menu.tools}
 ╰───────────●●►
-*©ᴅᴀʀᴋ_Qᴜᴇᴇɴ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ*
+*©ᴄʀᴇᴀᴛᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ*
 `
 
 return await conn.sendMessage(from,{image: {url: `https://files.catbox.moe/0occok.jpg`},caption:madeMenu},{quoted: mek})
