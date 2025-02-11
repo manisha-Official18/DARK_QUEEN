@@ -1,5 +1,5 @@
 const crypto = require('crypto');
-const { cmd } = require('../command');
+const { cmd } = require('../../command');
 
 cmd({
     pattern: "gpass",
@@ -26,7 +26,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         };
 
         const password = generatePassword(length);
-        const message = `🔐 *Your Strong Password* 🔐\n\nPlease find your generated password below:\n\n> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`;
+        const message = `🔐 *Your Strong Password* 🔐\n\nPlease find your generated password below:\n\n> *©ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ*`;
 
         // Send initial notification message
         await conn.sendMessage(from, { text: message }, { quoted: mek });
