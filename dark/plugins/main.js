@@ -198,6 +198,35 @@ cmd({
 },
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
+        const senderNumber = m.sender;
+          const isGroup = m.isGroup || false;
+
+          // Check access permissions
+          if (!checkAccess(senderNumber, isGroup)) {
+              if (blacklistedJIDs.includes(senderNumber)) {
+                  return reply("*🚫 You are blacklisted. Access denied.*");
+              } else {
+                  return reply("*😢 Access denied. You don't have permission to use this command.🎁 Change Bot Mode!*");
+              }
+          }
+
+          // System and memory information
+          const uptime = runtime(process.uptime());
+          const memoryUsage = (process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2);
+          const totalMemory = Math.round(os.totalmem() / 1024 / 1024);
+          const cpuArch = os.arch();
+          const cpuCores = os.cpus().length;
+          const systemType = os.type();
+          const freeMemory = (os.freemem() / 1024 / 1024).toFixed(2);
+
+          // Custom message for Render platform
+          let platformMessage = '';
+          if (platformName === 'Render') {
+              platformMessage = '\n🌟 You are currently hosting on Render! Enjoy seamless deployments.';
+          }
+
+          // Status message to be sent
+        
         let desc = `*👋 Hello ${pushname}*
 
 *╭═「 ᴄᴏᴍᴍᴀɴᴅ ᴘᴀɴᴇʟ 」*
@@ -224,11 +253,9 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
 🌟 ℝ𝔼ℙ𝕃𝕐 𝕥𝕙𝕖 ℕ𝕒𝕞𝕓𝕖𝕣 𝕐𝕠𝕦 𝕨𝕒𝕟𝕥 𝕥𝕠 𝕤𝕖𝕝𝕖𝕔𝕥
 
-💻 *GitHub:* https://github.com/MANISHA-CMD/DARK_QUEEN
+💻 *GitHub:* https://github.com/manisha-Official18/DARK_QUEEN
 
-👩‍💻 *Channel:* https://whatsapp.com/channel/0029Vb33Gmr6hENhFseLgF2f
-
-> 𝐂𝐫𝐞𝐚𝐭𝐞𝐝 𝐁𝐲 - : ©ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ`;
+> ©ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ`;
 
 
 const sentMsg = await conn.sendMessage(from, {
@@ -269,7 +296,7 @@ const sentMsg = await conn.sendMessage(from, {
 │ • *restart* 
 ╰──────────────────●●►
 
-👩‍💻 *Channel:* https://whatsapp.com/channel/0029Vb33Gmr6hENhFseLgF2f
+👩‍💻 *Channel:* https://whatsapp.com/channel/0029Vb1AB158F2pCzMyd8O1B
 
 > ᴄʀᴇᴀᴛᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ`);
                         break;
@@ -286,7 +313,7 @@ const sentMsg = await conn.sendMessage(from, {
 │ • *url* 
 ╰──────────────────●●►
 
-👩‍💻 *Channel:* https://whatsapp.com/channel/0029Vb33Gmr6hENhFseLgF2f
+👩‍💻 *Channel:* https://whatsapp.com/channel/0029Vb1AB158F2pCzMyd8O1B
 
 > ᴄʀᴇᴀᴛᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ`);
                         break;
@@ -297,7 +324,7 @@ const sentMsg = await conn.sendMessage(from, {
 │ • *ai* 
 ╰──────────────────●●►
 
-👩‍💻 *Channel:* https://whatsapp.com/channel/0029Vb33Gmr6hENhFseLgF2f
+👩‍💻 *Channel:* https://whatsapp.com/channel/0029Vb1AB158F2pCzMyd8O1B
 
 > ᴄʀᴇᴀᴛᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ`);
                         break;
@@ -308,7 +335,7 @@ const sentMsg = await conn.sendMessage(from, {
 │ • *yts* 
 ╰──────────────────●●►
 
-👩‍💻 *Channel:* https://whatsapp.com/channel/0029Vb33Gmr6hENhFseLgF2f
+👩‍💻 *Channel:* https://whatsapp.com/channel/0029Vb1AB158F2pCzMyd8O1B
 
 > ᴄʀᴇᴀᴛᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ`);
                         break;
@@ -325,7 +352,7 @@ const sentMsg = await conn.sendMessage(from, {
 │ • *song* 
 ╰──────────────────●●►
 
-👩‍💻 *Channel:* https://whatsapp.com/channel/0029Vb33Gmr6hENhFseLgF2f
+👩‍💻 *Channel:* https://whatsapp.com/channel/0029Vb1AB158F2pCzMyd8O1B
 
 > ᴄʀᴇᴀᴛᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ`);
                         break;
@@ -381,7 +408,7 @@ i
 │ • *runtime* 
 ╰──────────────────●●►
 
-👩‍💻 *Channel:* https://whatsapp.com/channel/0029Vb33Gmr6hENhFseLgF2f
+👩‍💻 *Channel:* https://whatsapp.com/channel/0029Vb1AB158F2pCzMyd8O1B
 
 > ᴄʀᴇᴀᴛᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ`);
                         break;
@@ -464,7 +491,7 @@ i
 │ • *del* 
 ╰──────────────────●●►
 
-👩‍💻 *Channel:* https://whatsapp.com/channel/0029Vb33Gmr6hENhFseLgF2f
+👩‍💻 *Channel:* https://whatsapp.com/channel/0029Vb1AB158F2pCzMyd8O1B
 
 > ᴄʀᴇᴀᴛᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ`);
                         break;
@@ -475,7 +502,7 @@ i
 │ • *weather* 
 ╰──────────────────●●►
 
-👩‍💻 *Channel:* https://whatsapp.com/channel/0029Vb33Gmr6hENhFseLgF2f
+👩‍💻 *Channel:* https://whatsapp.com/channel/0029Vb1AB158F2pCzMyd8O1B
 
 > ᴄʀᴇᴀᴛᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ`);
 
@@ -523,7 +550,7 @@ i
 │ • *password* 
 ╰──────────────────●●►
 
-👩‍💻 *Channel:* https://whatsapp.com/channel/0029Vb33Gmr6hENhFseLgF2f
+👩‍💻 *Channel:* https://whatsapp.com/channel/0029Vb1AB158F2pCzMyd8O1B
 
 > ᴄʀᴇᴀᴛᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ`);
 
