@@ -30,7 +30,7 @@ You can see the Paire Code at **[PAIR CODE](https://replit.com/@manisha1718mani/
 
 <p align="center">
 
-<img src="./Android/database/K.Prabhasha.gif" alt="Loading..." width="320"/>
+<img src="./dark/img/queen.gif" alt="Loading..." width="320"/>
 
 <p align="center">
 
