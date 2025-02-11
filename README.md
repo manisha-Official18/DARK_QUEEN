@@ -7,7 +7,7 @@
 </p>
 <p align="center"> 
   <a href="https://whatsapp.com/channel/0029Vb1AB158F2pCzMyd8O1B">
-    <img alt=Support height="600" src="https://files.catbox.moe/unnoua.jpg">
+    <img alt=Support height="700" src="https://files.catbox.moe/unnoua.jpg">
     </p>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
@@ -34,6 +34,6 @@ You can see the Paire Code at **[PAIR CODE](https://replit.com/@manisha1718mani/
        
 <p align="center">
 
-<img src="./dark/img/2006_7.gif" alt="Loading..." width="320"/>
+<img src="./dark/img/2006_7.gif" alt="Loading..." width="600"/>
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
