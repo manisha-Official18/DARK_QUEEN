@@ -7,8 +7,7 @@ const {cmd , commands} = require('../../command')
 //============= menu command ================
 
 const os = require("os")
-const {runtime} = require('../functions')
-const {sleep} = require('../functions')
+const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, fetchJson , runtime ,sleep } = require('../functions')
 
 cmd({
     pattern: "alive",
