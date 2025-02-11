@@ -311,7 +311,7 @@ conn.ev.on('messages.delete', async (message) => {
 })
 }
 
-app.get("/", (req, res) => res.sendFile(require('path').join(__dirname, "./index.html")));
+app.get("/", (req, res) => res.sendFile(require('path').join(__dirname, "./queen.html")));
 app.listen(port, () => console.log(`✅ DARK_QUEEN - Server Running...`));
 setTimeout(() => {
     connectToWA()
