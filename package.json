@@ -2,9 +2,9 @@
   "name": "DARK_QUEEN",
   "version": "1.0.0",
   "description": "Sri Lankan Most Speed & Best Multi Device Whatsapp Bot",
-  "main": "index.js",
+  "main": "queen.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name DARK_QUEEN",
+    "start": "pm2 start queen.js --deep-monitoring --attach --name DARK_QUEEN",
     "stop": "pm2 stop DARK_QUEEN ",
     "restart": "pm2 restart DARK_QUEEN "
   },
