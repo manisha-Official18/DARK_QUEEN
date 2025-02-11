@@ -1,9 +1,9 @@
 // XVIDEO DOWNLOAD COMMAND
 
-const { cmd } = require('../command')
-const { fetchJson } = require('../DATABASE/functions')
+const { cmd } = require('../../command')
+const { fetchJson } = require('../functions')
 
-const apilink = 'https://dark-yasiya-api-new.vercel.app' // API LINK ( DO NOT CHANGE THIS!! )
+const apilink = '' // API LINK ( DO NOT CHANGE THIS!! )
 
 
 
@@ -29,7 +29,7 @@ const xv_info = await fetchJson(`${apilink}/download/xvideo?url=${xv_list.result
   // FIRST VIDEO
   
 const msg = `
-           *乂 SAHAS-MD XVIDEO DOWNLOADER* 🔞
+           *DARK_QUEEN XVIDEO DOWNLOADER* 🔞
 
        
 • *𝖳𝗂𝗍𝗅𝖾* - ${xv_info.result.title}
@@ -42,7 +42,7 @@ const msg = `
 
 • *𝖲𝗂𝗓𝖾* - ${xv_info.result.size}
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`
+> *©ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ*`
 
 // Sending the image with caption
           const sentMsg = await conn.sendMessage(from, {
@@ -54,11 +54,11 @@ const msg = `
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-          newsletterName: '👾 ＳＡＨＡＳ  |   𝚃𝙴𝙲𝙷 ジ',
-          newsletterJid: "120363296605464049@newsletter",
+          newsletterName: '𝐌𝐚𝐧𝐢𝐬𝐡𝐚 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥ᵐˢ',
+          newsletterJid: "@newsletter",
           },
           externalAdReply: {
-              title: `SAHAS-MD Xvideo Downloader`,
+              title: `DARK_QUEEN Xvideo Downloader`,
               body: `Can't Find The Information. You Can Try Another Way. Error Code 4043`,
               thumbnailUrl: xv_info.result.image,
               sourceUrl: ``,
