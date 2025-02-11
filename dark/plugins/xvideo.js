@@ -45,28 +45,7 @@ const msg = `
 > *©ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ*`
 
 // Sending the image with caption
-          const sentMsg = await conn.sendMessage(from, {
-
-
-          text: msg,
-          contextInfo: {
-
-          forwardingScore: 999,
-          isForwarded: true,
-          forwardedNewsletterMessageInfo: {
-          newsletterName: '𝐌𝐚𝐧𝐢𝐬𝐡𝐚 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥ᵐˢ',
-          newsletterJid: "@newsletter",
-          },
-          externalAdReply: {
-              title: `DARK_QUEEN Xvideo Downloader`,
-              body: `Can't Find The Information. You Can Try Another Way. Error Code 4043`,
-              thumbnailUrl: xv_info.result.image,
-              sourceUrl: ``,
-              mediaType: 1,
-              renderLargerThumbnail: true
-              }
-                  }
-              }, { quoted: mek });
+await conn.sendMessage(from, { image: { url: xv_info.result.image ||''}, caption: msg}, { quoted: mek });
 
 // SEND VIDEO
 await conn.sendMessage(from, { document: { url: xv_info.result.dl_link }, mimetype: "video/mp4", fileName: xv_info.result.title, caption: xv_info.result.title }, { quoted: mek });
