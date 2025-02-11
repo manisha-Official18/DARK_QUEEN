@@ -15,7 +15,7 @@ const P = require('pino')
 const config = require('./config')
 const qrcode = require('qrcode-terminal')
 const util = require('util')
-const { sms, downloadMediaMessage } = require('./DATABASE/msg')
+const { sms, downloadMediaMessage } = require('./dark/msg')
 const axios = require('axios')
 const { File } = require('megajs')
 const prefix = config.PREFIX 
@@ -25,13 +25,13 @@ const ownerNumber = ['94721551183']
 
 //--------------------| DARK_QUEEN Sesion Output |--------------------//
 
-if (!fs.existsSync(__dirname + '/Session/creds.json')) {
+if (!fs.existsSync(__dirname + '/dark/session/creds.json')) {
     if(!config.SESSION_ID) return console.log('❎ DARK_QUEEN - Please Add Your Session...')
     const sessdata = config.SESSION_ID
     const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
     filer.download((err, data) => {
         if(err) throw err
-        fs.writeFile(__dirname + '/Session/creds.json', data, () => {
+        fs.writeFile(__dirname + '/dark/session/creds.json', data, () => {
 
             console.log("✅ DARK_QUEEN- Session Downloading...")
         })
@@ -44,7 +44,7 @@ const port = process.env.PORT || 8000;
 async function connectToWA() {
     console.log(asciiArt);
     console.log("✅ DARK_QUEEN - Session Download Completed...");
-    const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/Session/')
+    const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/dark/session/')
     var { version } = await fetchLatestBaileysVersion()
 
     const conn = makeWASocket({
@@ -63,13 +63,13 @@ async function connectToWA() {
                 connectToWA()
             }
         } else if (connection === 'open') {
-            console.log('✅ DARK_QUEEN - Plugin Installing...')
-            console.log('✅ DARK_QUEEN - Plugin Install Completed...')
+            console.log('✅ DARK_QUEEN - plugins Installing...')
+            console.log('✅ DARK_QUEEN - plugins Install Completed...')
             console.log('✅ DARK_QUEEN - Sucessfull Conected Your Device...')
             const path = require('path');
-            fs.readdirSync("./Plugin/").forEach((plugin) => {
+            fs.readdirSync("./dark/plugins/").forEach((plugin) => {
                 if (path.extname(plugin).toLowerCase() == ".js") {
-                    require("./Plugin/" + plugin);
+                    require("./dark/plugins/" + plugin);
                 }
             });
 
