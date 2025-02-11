@@ -75,7 +75,7 @@ cmd({
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-          newsletterName: 'DARK_QUEEN',
+          newsletterName: '𝐌𝐚𝐧𝐢𝐬𝐡𝐚 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥ᵐˢ',
           newsletterJid: "@newsletter",
           },
           externalAdReply: {
@@ -169,7 +169,7 @@ cmd({
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-          newsletterName: 'DARK_QUEEN',
+          newsletterName: '𝐌𝐚𝐧𝐢𝐬𝐡𝐚 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥ᵐˢ',
           newsletterJid: "@newsletter",
           },
           externalAdReply: {
@@ -334,7 +334,7 @@ menu[commands[i].category] += `.${commands[i].pattern}\n`;
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-          newsletterName: 'DARK_QUEEN ',
+          newsletterName: '𝐌𝐚𝐧𝐢𝐬𝐡𝐚 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥ᵐˢ',
           newsletterJid: "@newsletter",
           },
           externalAdReply: {
@@ -421,7 +421,7 @@ cmd({
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-          newsletterName: 'DARK_QUEEN',
+          newsletterName: '𝐌𝐚𝐧𝐢𝐬𝐡𝐚 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥ᵐˢ',
           newsletterJid: "@newsletter",
           },
           externalAdReply: {
@@ -509,7 +509,7 @@ cmd({
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-          newsletterName: 'DARK_QUEEN',
+          newsletterName: '𝐌𝐚𝐧𝐢𝐬𝐡𝐚 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥ᵐˢ',
           newsletterJid: "@newsletter",
           },
           externalAdReply: {
@@ -593,7 +593,7 @@ cmd({
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-          newsletterName: 'DARK_QUEEN',
+          newsletterName: '𝐌𝐚𝐧𝐢𝐬𝐡𝐚 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥ᵐˢ',
           newsletterJid: "@newsletter",
           },
           externalAdReply: {
