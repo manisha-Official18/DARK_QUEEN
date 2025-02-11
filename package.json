@@ -1,12 +1,12 @@
 {
-  "name": "SAHAS-MD",
+  "name": "DARK_QUEEN",
   "version": "1.0.0",
-  "description": "SAHAS-MD MULTI DEVICE WHATSAPP BOT BY SAHAS TECH",
+  "description": "DARK_QUEEN MULTI DEVICE WHATSAPP BOT CTEATED BY MANISHA SASMITHA",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name SAHAS-MD",
-    "stop": "pm2 stop SAHAS-MD",
-    "restart": "pm2 restart SAHAS-MD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name DARK_QUEEN",
+    "stop": "pm2 stop DARK_QUEEN ",
+    "restart": "pm2 restart DARK_QUEEN "
   },
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
