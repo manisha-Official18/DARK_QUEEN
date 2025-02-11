@@ -7,7 +7,7 @@
 </p>
 <p align="center"> 
   <a href="https://whatsapp.com/channel/0029Vb1AB158F2pCzMyd8O1B">
-    <img alt=Support height="850" src="https://pomf2.lain.la/f/zxbep8y.jpg">
+    <img alt=Support height="3264" src="https://pomf2.lain.la/f/zxbep8y.jpg">
     </p>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
