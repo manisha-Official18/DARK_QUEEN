@@ -23,7 +23,7 @@ const path = require('path');
 const asciiArt = ``;
 const ownerNumber = ['94721551183']
 
-//--------------------| SAHAS-MD Sesion Output |--------------------//
+//--------------------| DARK_QUEEN Sesion Output |--------------------//
 
 if (!fs.existsSync(__dirname + '/Session/creds.json')) {
     if(!config.SESSION_ID) return console.log('❎ DARK_QUEEN - Please Add Your Session...')
