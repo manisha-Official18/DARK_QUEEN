@@ -19,7 +19,7 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 
-let desc`╔═══════✮❁•°♛°•❁✮════════╗
+let desc = `╔═══════✮❁•°♛°•❁✮════════╗
 𝑫𝑨𝑹𝑲_𝑸𝑼𝑬𝑬𝑵 𝐀𝐋𝐈𝐕𝐄
 ❖◦ *ʙᴏᴛ ɴᴀᴍᴇ* : ᴅᴀʀᴋ_Qᴜᴇᴇɴ
 ❖◦ *ᴄʀᴇᴀᴛᴏʀ* : ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ
@@ -465,7 +465,7 @@ cmd({
     }, async (conn, mek, m, { from, reply }) => {
       try {
 
-let desc = `*🚀 𝖱𝗎𝗇𝗍𝗂𝗆𝖾 : ${uptime}*`
+let desc = `*🚀 𝖱𝗎𝗇𝗍ime ${runtime(process.uptime())}*`
 
 await conn.sendMessage(from, { image: { url: `https://files.catbox.moe/3jw4io.jpg`}, caption: desc }, { quoted: mek });
 
@@ -497,7 +497,7 @@ cmd({
 ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎
 > *©ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ*`
 
- await conn.sendMessage(from, { image: { url: `https://files.catbox.moe/6731et.jpg`, caption: desc }, { quoted: mek });
+ await conn.sendMessage(from, { image: { url: `https://files.catbox.moe/6731et.jpg`}, caption: desc }, { quoted: mek });
 
 }catch(e){
 console.log(e)
