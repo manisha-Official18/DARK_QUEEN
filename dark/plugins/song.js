@@ -58,6 +58,7 @@ cmd(
 ⭕➥Duration:* ${data.timestamp} 
 ⭕➥Views:* ${data.views} 
 ⭕➥Uploaded On:* ${data.ago} 
+⭕➥Channel:* ${data.author.name}
 ⭕➥Link:* ${data.url} 
 
 > *©ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ*
