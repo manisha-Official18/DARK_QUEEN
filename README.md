@@ -6,8 +6,8 @@
 
 </p>
 <p align="center"> 
-  <a href="https://whatsapp.com/channel/0029Vb33Gmr6hENhFseLgF2f">
-    <img alt=Support height="900" src="https://files.catbox.moe/v1k9r3.jpg">
+  <a href="https://whatsapp.com/channel/0029Vb1AB158F2pCzMyd8O1B">
+    <img alt=Support height="900" src="pomf2.lain.la/f/zxbep8y.jpg">
     </p>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
