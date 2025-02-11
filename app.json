@@ -29,7 +29,7 @@
     "OWNER_NUMBER": {
       "description": "Owner Number",
       "required": true,
-      "default": "94721551183"
+      "default": ""
     },
     "ALIVE_IMG": {
       "description": "Put your alive img here.",
@@ -54,7 +54,7 @@
     "ANTI_BAD_WORDS": {
       "description": "Comma-separated list of bad words to filter.",
       "required": false,
-      "default": "pakayo,huththo"
+      "default": ""
     },
     "ANTI_LINK": {
       "description": "Enable anti link feature (true/false)",
@@ -99,7 +99,7 @@
     "OPENWEATHER_API_KEY": {
       "description": "API key for OpenWeather",
       "required": false,
-      "default": "2d61a72574c11c4f36173b627f8cb177"
+      "default": ""
     },
     "ELEVENLABS_API_KEY": {
       "description": "API key for Eleven Labs",
@@ -129,22 +129,22 @@
     "ZIPCODEBASE_API_KEY": {
       "description": "API key for Zipcodebase",
       "required": false,
-      "default": "0f94a5f0-6ea4-11ef-81da-579be4fb031c"
+      "default": ""
     },
     "GOOGLE_API_KEY": {
       "description": "Google API key",
       "required": false,
-      "default": "AIzaSyD93IeJsouK51zjKgyHAwBIAlqr-a8mnME"
+      "default": ""
     },
     "GOOGLE_CX": {
       "description": "Google Custom Search Engine ID",
       "required": false,
-      "default": "AIzaSyD93IeJsouK51zjKgyHAwBIAlqr-a8mnME"
+      "default": ""
     },
     "PASTEBIN_API_KEY": {
       "description": "API key for Pastebin",
       "required": false,
-      "default": "uh8QvO6vQJGtIug9WvjdTAPx_ZAFJAxn"
+      "default": ""
     }
   },
 
