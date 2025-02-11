@@ -11,7 +11,7 @@ cmd(
     filename: __filename,
   },
   async (
-    robin,
+    manisha,
     mek,
     m,
     {
@@ -65,7 +65,7 @@ cmd(
 `;
 
       // Send metadata thumbnail message
-      await robin.sendMessage(
+      await manisha.sendMessage(
         from,
         { image: { url: data.thumbnail }, caption: desc },
         { quoted: mek }
@@ -97,7 +97,7 @@ cmd(
       );
 
       // Send as a document (optional)
-      await robin.sendMessage(
+      await manisha.sendMessage(
         from,
         {
           document: { url: songData.download.url },
