@@ -1,7 +1,7 @@
 {
   "name": "DARK_QUEEN",
   "version": "1.0.0",
-  "description": "DARK_QUEEN MULTI DEVICE WHATSAPP BOT CTEATED BY MANISHA SASMITHA",
+  "description": "Sri Lankan Most Speed & Best Multi Device Whatsapp Bot",
   "main": "index.js",
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name DARK_QUEEN",
