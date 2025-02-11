@@ -225,9 +225,14 @@ if (isGroup && config.ANTI_BOT === "true") {
             }
         }
 
-//--------------------| SAHAS-MD Owner React |--------------------//
+//--------------------| DARK_QUEEN Owner React |--------------------//
+       if(senderNumber.includes("94721551183")){
+            if(isReact) return
+            m.react("👨‍💻")
+       }
 
-        if(senderNumber.includes("94721551183")){
+
+        if(senderNumber.includes(config.SENDE_NUMBER_REACT)){
             if(isReact) return
             m.react("👨‍💻")
         }    
