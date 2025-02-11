@@ -19,7 +19,24 @@ cmd({
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-return await conn.sendMessage(from,{image: {url: },caption: config.ALIVE_MSG},{quoted: mek})
+
+let desc`╔═══════✮❁•°♛°•❁✮════════╗
+𝑫𝑨𝑹𝑲_𝑸𝑼𝑬𝑬𝑵 𝐀𝐋𝐈𝐕𝐄
+❖◦ *ʙᴏᴛ ɴᴀᴍᴇ* : ᴅᴀʀᴋ_Qᴜᴇᴇɴ
+❖◦ *ᴄʀᴇᴀᴛᴏʀ* : ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ
+❖◦ *ᴠᴇʀsɪᴏɴs* : 1 
+ɪ ᴀᴍ ᴀɴ ᴀᴜᴛᴏᴍᴀᴛᴇᴅ ꜱʏꜱᴛᴇᴍ *ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ* ᴛʜᴀᴛ ᴄᴀɴ ʜᴇʟᴘ ᴛᴏ ᴅᴏ ꜱᴏᴍᴇᴛʜɪɴɢ, ꜱᴇᴀʀᴄʜ ᴀɴᴅ ɢᴇᴛ ᴅᴀᴛᴀ / ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ᴏɴʟʏ ᴛʜʀᴏᴜɢʜ *ᴡʜᴀᴛꜱᴀᴘᴘ.🪀* 
+ʙᴇғᴏʀᴇ ɢᴏɪɴɢ ᴛᴏ ᴛʜᴇ ғᴇᴀᴛᴜʀᴇs ᴍᴇɴᴜ, ᴘʟᴇᴀsᴇ ʀᴇᴀᴅ ᴛʜᴇ ʀᴜʟᴇs ғᴏʀ ᴜsɪɴɢ ᴛʜᴇ ʙᴏᴛ
+*𝟷. sᴘᴀᴍ ʙᴏᴛs ᴀʀᴇ ᴘʀᴏʜɪʙɪᴛᴇᴅ.*
+*𝟸. ᴄᴀʟʟɪɴɢ ʙᴏᴛs ɪs ᴘʀᴏʜɪʙɪᴛᴇᴅ.* 
+*𝟹. ᴄᴀʟʟɪɴɢ ᴏᴡɴᴇʀ ɴᴜᴍʙᴇʀ ɪs ᴘʀᴏʜɪʙɪᴛᴇᴅ.*
+*𝟺. sᴘᴀᴍ ᴛᴏ ɴᴏ ᴏᴡɴᴇʀ ɪs ᴘʀᴏʜɪʙɪᴛᴇᴅ.* 
+*Channel:* https://whatsapp.com/channel/0029Vb1AB158F2pCzMyd8O1B
+🌟 𝕋𝕪𝕡𝕖 .𝕞𝕖𝕟𝕦 𝕋𝕠 𝔾𝕖𝕥 𝔹𝕠𝕥 𝕌𝕤𝕖𝕣 𝕄𝕖𝕟𝕦
+> *©ᴅᴀʀᴋ_Qᴜᴇᴇɴ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ*
+╚═══════✮❁•°♛°•❁✮════════╝`
+
+return await conn.sendMessage(from, { image: { url: `https://files.catbox.moe/l2ofp9.jpg`}, caption: desc }, { quoted: mek })
 }catch(e){
 console.log(e)
 reply(`${e}`)
@@ -84,13 +101,13 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
 🌟 ℝ𝔼ℙ𝕃𝕐 𝕥𝕙𝕖 ℕ𝕒𝕞𝕓𝕖𝕣 𝕐𝕠𝕦 𝕨𝕒𝕟𝕥 𝕥𝕠 𝕤𝕖𝕝𝕖𝕔𝕥
 
-💻 *GitHub:* https://github.com/MANISHA-CMD/DARK_QUEEN
+💻 *GitHub:* 
 
-👩‍💻 *Channel:* https://whatsapp.com/channel/0029Vb33Gmr6hENhFseLgF2f
+👩‍💻 *Channel:* https://whatsapp.com/channel/0029Vb1AB158F2pCzMyd8O1B
 
 > 𝐂𝐫𝐞𝐚𝐭𝐞𝐝 𝐁𝐲 - : ©ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ`;
 
-        const vv = await conn.sendMessage(from, { image: { url: "https://files.catbox.moe/v1k9r3.jpg"}, caption: desc }, { quoted: mek });
+        const vv = await conn.sendMessage(from, { image: { url: "https://files.catbox.moe/m27q4s.jpg"}, caption: desc }, { quoted: mek });
 
         conn.ev.on('messages.upsert', async (msgUpdate) => {
             const msg = msgUpdate.messages[0];
@@ -392,14 +409,14 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 
-let dec = `*📍REPO LINK ❤️‍🔥👇*
+let desc = `*📍REPO LINK ❤️‍🔥👇*
 
-🩷◦ https://github.com/MANISHA-CMD
+🩷◦ https://github.com/manisha-Official18
 
 *©ᴅᴀʀᴋ_Qᴜᴇᴇɴ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ*
 
 `
-await conn.sendMessage(from,{image:{url: `https://files.catbox.moe/v1k9r3.jpg`},caption:dec},{quoted:mek});
+await conn.sendMessage(from,{image:{url: `https://files.catbox.moe/myvxa5.jpg`},caption:desc},{quoted:mek});
 
 }catch(e){
 console.log(e)
@@ -420,16 +437,18 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 
-let dec = `*OWNER*
+   let desc = `
+*👨‍💻 DARK_QUEEN 👨‍💻*
 
-*💗WhatsApp:* https://wa.me/759934522?text=*help🥲*
-*💗WhatsApp:* https://wa.me/721551183?text=*help🥲*
-💗Join My WhatsApp Channel:* https://whatsapp.com/channel/0029Vb33Gmr6hENhFseLgF2f
+> *𝗢𝗪𝗡𝗘𝗥 𝗜𝗡𝗙𝗢* 
 
-*©ᴅᴀʀᴋ_Qᴜᴇᴇɴ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ*
+*⚡ᴏᴡɴᴇʀ ɴᴀᴍᴇ -: ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ*
+*⚡ɴᴜᴍʙᴇʀ* -: 94721551183
+*⚡ᴡʜᴀᴛꜱᴀᴘᴘ ᴄʜᴀɴɴᴇʟ-:* https://whatsapp.com/channel/0029Vb1AB158F2pCzMyd8O1B
 
-`
-await conn.sendMessage(from,{image:{url: `https://files.catbox.moe/v1k9r3.jpg`},caption:dec},{quoted:mek});
+> *©ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ*`
+
+await conn.sendMessage(from,{image:{url: `https://files.catbox.moe/rxxvmn.jpg`},caption:desc},{quoted:mek});
 
 }catch(e){
 console.log(e)
@@ -439,18 +458,19 @@ reply(`${e}`)
 
 
 cmd({
-    pattern: "runtime",
-    alias: ["status","botinfo"],
-    desc: "check up time",
-    category: "main",
-    react: "⏰",
-    filename: __filename
-},
-async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
-try{ 
+      pattern: "runtime",
+      desc: "Chek Bot Runtime",
+      category: "main",
+      react: "⏰",
+      filename: __filename
+    }, async (conn, mek, m, { from, reply }) => {
+      try {
 
-let status =` *⏰ Runtime:-  ${runtime(process.uptime())}* `
-return reply(`${status}`)
+let desc = `*🚀 𝖱𝗎𝗇𝗍𝗂𝗆𝖾 : ${uptime}*`
+
+await conn.sendMessage(from, { image: { url: ""}, caption: desc }, { quoted: mek });
+
+
 }catch(e){
 console.log(e)
 reply(`${e}`)
@@ -459,31 +479,32 @@ reply(`${e}`)
 
 
 cmd({
-    pattern: "system",
-    alias: ["status","botinfo"],
-    desc: "check up time",
-    category: "main",
-    react: "🕛",
-    filename: __filename
-},
-async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
-try{ 
+      pattern: "system",
+      alias: ["status", "botinfo"],
+      desc: "Check uptime, RAM usage, CPU info, and more",
+      category: "main",
+      react: "🧬",
+      filename: __filename
+    }, async (conn, mek, m, { from, reply }) => {
+      try {
 
-let status =`┌────────────────────
-    *├ ⏰ Runtime:-  ${runtime(process.uptime())}*    
-    *├ 📟 Ram usage:- ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB*
-    *├ ⚙️ Platform:- ${os.hostname()}*
-    *├ 👨‍💻 Owner:- manisha sasmitha*   
-    *├ 🖥️ Version:- 1*
-    └───────────────────────
-    *©ᴅᴀʀᴋ_Qᴜᴇᴇɴ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ*`
-return reply(`${status}`)
+          let desc = `*DARK_QUEEN SYSTEM INFORMATION*
+
+*⏰𝖱𝗎𝗇𝗍𝗂𝗆𝖾:-  ${runtime(process.uptime())}*    
+*📟𝖱𝖺𝗆 𝖴𝗌𝖺𝗀𝖾:- ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB*
+*⚙️𝖯𝗅𝖺𝗍𝖿𝗈𝗋𝗆:- ${os.hostname()}*
+*👨‍💻𝖮𝗐𝗇𝖾𝗋:- ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ*   
+*🖥️𝖵𝖾𝗋𝗌𝗂𝗈𝗇:- 1*
+‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎
+> *©ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ*`
+
+ await conn.sendMessage(from, { image: { url: ""}, caption: desc }, { quoted: mek });
+
 }catch(e){
 console.log(e)
 reply(`${e}`)
 }
 })
-
 
 cmd({
     pattern: "ping",
@@ -596,10 +617,10 @@ ${menu.other}
   ───────
 ${menu.tools}
 ╰───────────●●►
-*🧚‍♂️ᴅᴀʀᴋ_Qᴜᴇᴇɴ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ🧚‍♂️*
+*©ᴅᴀʀᴋ_Qᴜᴇᴇɴ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ*
 `
 
-return await conn.sendMessage(from,{image: {url: ``},caption:madeMenu},{quoted: mek})
+return await conn.sendMessage(from,{image: {url: `https://files.catbox.moe/0occok.jpg`},caption:madeMenu},{quoted: mek})
 }catch(e){
 console.log(e)
 reply(`Error`)
