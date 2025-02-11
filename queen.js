@@ -76,7 +76,7 @@ async function connectToWA() {
 
             let up = config.START_MSG;
                     
-            conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://files.catbox.moe/zvx007.jpg` }, caption: up })
+            conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://files.catbox.moe/gdq9qa.jpg` }, caption: up })
 
     //--------------------| DARK_QUEEN  Settings Input |--------------------//
 
