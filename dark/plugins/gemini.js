@@ -1,6 +1,6 @@
-const {cmd , commands} = require('../command')
+const {cmd , commands} = require('../../command')
 const axios = require("axios")
-const config = require('../config');
+const config = require('../../config');
 
 const GEMINI_API_KEY = config.GEMINI_API_KEY;  //REPLACE WITH YOUR API KEY OF GEMINI
 const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${GEMINI_API_KEY}`;
@@ -20,7 +20,7 @@ cmd({
       return reply(`❗️ Please GFive Me A Question`);
     }
 
-    const prompt = `my name is ${pushname}, Your name is Robin AI. you are a WhatsApp AI Bot. you were made by Isara Sihilel(ඉසර සිහිලැල්). answer in the language the person talking to you speak. Answer in a way that doesn't sound like you're a bot. think you are human and answer. Use meaningful emojis. my question is: ${text}`;
+    const prompt = `my name is ${pushname}, Your name is manisha AI. you are a WhatsApp AI Bot. you were made by manisha sasmitha. answer in the language the person talking to you speak. Answer in a way that doesn't sound like you're a bot. think you are human and answer. Use meaningful emojis. my question is: ${text}`;
 
     const payload = {
       contents: [{
