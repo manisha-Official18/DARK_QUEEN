@@ -1,5 +1,5 @@
 const axios = require('axios');
-const { cmd, commands } = require('../command');
+const { cmd, commands } = require('../../command');
 
 cmd({
     pattern: "animegirl",
