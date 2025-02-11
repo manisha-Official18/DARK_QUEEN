@@ -1,8 +1,8 @@
-const { cmd, commands } = require('../command');
-const scraper = require("../DATABASE/scraper");
+const { cmd, commands } = require('../../command');
+const scraper = require("../scraper");
 const axios = require('axios');
 const fetch = require('node-fetch');
-const { fetchJson, getBuffer } = require('../DATABASE/functions');
+const { fetchJson, getBuffer } = require('../functions');
 const { lookup } = require('mime-types');
 const fs = require('fs');
 const path = require('path');
