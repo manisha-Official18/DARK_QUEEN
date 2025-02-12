@@ -3,11 +3,11 @@ require("dotenv").config();
 
 module.exports = {
   //==========================================- MAIN - CONFIGS -==================================================================
-  SESSION_ID: process.env.SESSION_ID || "PvZHzT6R#ZwtZnErR0Kbfh8v_sxik75gtL9oGdn9hRATrVJwLP60",
+  SESSION_ID: process.env.SESSION_ID || "",
   // ADD Your Session Id 
   PREFIX: process.env.PREFIX || ".",
   // Add Your Custom Prefix 
-  SENDE_NUMBER_REACT: process.env.SENDE_NUMBER_REACT ||"94759934522",
+  SENDE_NUMBER_REACT: process.env.SENDE_NUMBER_REACT ||"947xxxxxx",
   //add number reacat
   mode: process.env.mode || "public",
   // Add Your Bot Mode 
