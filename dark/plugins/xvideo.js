@@ -19,7 +19,7 @@ cmd({
 async(conn, mek, m,{from, quoted, reply, q }) => {
 try{
 
-  if(!q) return await reply("𝖯𝗅𝖾𝖺𝗌𝖾 𝖦𝗂𝗏𝖾 𝗆𝖾 𝖥𝖾𝗐 𝖶𝗈𝗋𝖽 !")
+  if(!q) return await reply("*plese give me few word !*")
     
 const xv_list = await fetchJson(`${apilink}/search/xvideo?q=${q}`)
 if(xv_list.result.length < 0) return await reply("Not results found !")
