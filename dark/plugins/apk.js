@@ -20,7 +20,7 @@ async (conn, mek, m, { from, quoted, body, q, reply }) => {
     const appId = q.trim();
     if (!appId) return reply(`Please provide an app name`);
     
-    reply("_Downloading " + appId + "_");
+    reply("*_Downloading " + appId + "_*");
     
     try {
         const appInfo = await scraper.aptoideDl(appId);
