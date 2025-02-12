@@ -12,7 +12,7 @@
     "@adiwajshing/keyed-db": "^0.2.4",
     "9gag":"4.0.0",
     "mongoose":"8.6.1",
-     "human-readable": "^0.2.1",
+    "human-readable": "^0.2.1",
     "@blackamda/telegram-image-url": "^1.0.0",
     "@sl-code-lords/esana-news":"1.1.0",
     "ios-news":"1.0.1",
@@ -51,6 +51,12 @@
     "ios-news": "^1.0.0",
     "wa-sticker-formatter": "^4.3.2",
     "yts": "^2.0.0",
-    "@vreden/youtube_scraper":"1.2.5"
+    "@vreden/youtube_scraper":"1.2.5",
+
+    "ruhend-scraper" : "7.0.6",
+    "cheerio" : "1.0.0",
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    
+    "@blackamda/telegram-image-url": "^1.0.0"
   }
 }
