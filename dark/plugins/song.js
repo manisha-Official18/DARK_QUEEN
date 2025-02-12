@@ -109,7 +109,7 @@ cmd(
         { quoted: mek }
       );
 
-      return reply("*Thanks for using my bot*");
+  
     } catch (e) {
       console.log(e);
       reply(`❌ Error: ${e.message}`);
