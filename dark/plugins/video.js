@@ -11,7 +11,7 @@ cmd(
     filename: __filename,
   },
   async (
-    robin,
+    manisha,
     mek,
     m,
     { from, quoted, body, isCmd, command, args, q, isGroup, sender, reply }
