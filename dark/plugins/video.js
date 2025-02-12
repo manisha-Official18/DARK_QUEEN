@@ -83,7 +83,7 @@ cmd(
         from,
         {
           video: video.buffer,
-          caption: `🎥 *${video.title}*\n\n©ᴄʀᴇᴀᴛᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ`,
+          caption: `🎥 *${video.title}*\n\n> ©ᴄʀᴇᴀᴛᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ`,
         },
         { quoted: mek }
       );
