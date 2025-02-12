@@ -104,7 +104,7 @@ cmd(
           document: { url: songData.download.url },
           mimetype: "audio/mpeg",
           fileName: `${data.title}.mp3`,
-          caption: "*©ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ",
+          caption: "> *©ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ",
         },
         { quoted: mek }
       );
