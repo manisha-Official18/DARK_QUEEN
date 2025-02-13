@@ -43,7 +43,7 @@ const msg = `
   await conn.sendMessage(from, { image: { url: `https://i.ibb.co/dPw1fHD/mfire.jpg`}, caption: msg }, { quoted: mek });
           
 // SEND FILE
-await conn.sendMessage(from, { document: { url: mfire.result.dl_link }, mimetype: mfire.result.fileType , fileName: mfire.result.fileName, caption: > *©ᴄʀᴇᴀᴛᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ* }, { quoted: mek });
+await conn.sendMessage(from, { document: { url: mfire.result.dl_link }, mimetype: mfire.result.fileType , fileName: mfire.result.fileName, caption:"*©ᴄʀᴇᴀᴛᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ*"}, { quoted: mek });
 
   
 } catch (e) {
