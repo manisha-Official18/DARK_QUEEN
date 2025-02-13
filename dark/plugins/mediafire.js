@@ -16,7 +16,7 @@ cmd({
     use: '.mfire < mediafire url >',
     filename: __filename
 },
-async(conn, mek, m,{from, quoted, reply, q }) => {
+async(manisha, mek, m,{from, quoted, reply, q }) => {
 try{
   
 if(!q) return await reply("*please give me mediafire url*");
@@ -40,10 +40,10 @@ const msg = `
 
        // Sending the image with caption
        
-  await conn.sendMessage(from, { image: { url: `https://i.ibb.co/dPw1fHD/mfire.jpg`}, caption: msg }, { quoted: mek });
+await manisha.sendMessage(from, { image: { url: `https://i.ibb.co/dPw1fHD/mfire.jpg`}, caption: msg }, { quoted: mek });
           
 // SEND FILE
-await conn.sendMessage(from, { document: { url: mfire.result.dl_link }, mimetype: mfire.result.fileType , fileName: mfire.result.fileName, caption:"*©ᴄʀᴇᴀᴛᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ*"}, { quoted: mek });
+await manisha.sendMessage(from, { document: { url: mfire.result.dl_link }, mimetype: mfire.result.fileType , fileName: mfire.result.fileName, caption:"*©ᴄʀᴇᴀᴛᴅ ʙʏ ᴍᴀɴɪꜱʜᴀ ꜱᴀꜱᴍɪᴛʜᴀ*"}, { quoted: mek });
 
   
 } catch (e) {
