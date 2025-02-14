@@ -1,4 +1,4 @@
-# DARK_QUEEN
+# 𝗗𝗔𝗥𝗞 𝗤𝗨𝗘𝗘𝗡
 ```CREATED BY MANISHA SASMITHA```
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
@@ -14,12 +14,12 @@
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&random=false&width=435&lines=THIS+IS+DARK_QUEEN+MADE+IN+SRILANKA+🇱🇰" alt="Typing SVG" /></a>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src= https://i.imgur.com/LyHic3i.gif /></a>
 
-## PAIR SITE
+## 𝗣𝗔𝗜𝗥 𝗦𝗜𝗧𝗘
 ╔═════════════╗
 # ▯[PAIR CODE](https://replit.com/@manisha1718mani/WHATSAPP-BOT-PIR)▯
 ╚═════════════╝
 
-## WORKFLOW
+## 𝗪𝗢𝗥𝗞𝗙𝗟𝗢𝗪
 
 ╔〠═════┉════════〠╗
 # [WORKFLOW LINK](https://github.com/manisha-Official18/DARK_QUEEN/new/main?filename=.github%2Fworkflows%2Fmain.yml&workflow_template=blank)
@@ -50,7 +50,7 @@
 </details>
 
 <!-- WORKFLOW CODE -->
-<b><details><summary>WORKFLOW CODE</summary></b>
+<b><details><summary>𝗪𝗢𝗥𝗞𝗙𝗟𝗢𝗪 𝗖𝗢𝗗𝗘</summary></b>
 
 <p align="center">
 
