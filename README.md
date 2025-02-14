@@ -19,12 +19,6 @@
 # ▯[PAIR CODE](https://replit.com/@manisha1718mani/WHATSAPP-BOT-PIR)▯
 ╚═════════════╝
 
-</b>
-</details>
-
-<!-- Contact Owner -->
-<b><details><summary>Contact Owner 😜</summary></b>
-
 ## WORKFLOW
 
 ╔〠═════┉════════〠╗
