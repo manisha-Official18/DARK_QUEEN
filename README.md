@@ -54,6 +54,7 @@
 
 <p align="center">
 
+```
 name: Node.js CI
 
 on:
@@ -87,6 +88,7 @@ jobs:
 
     - name: Start application
       run: npm start
+```
       
 </details>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
