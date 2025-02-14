@@ -49,12 +49,12 @@
 </b>
 </details>
 
-<!-- Contact Owner -->
+<!-- WORKFLOW CODE -->
 <b><details><summary>WORKFLOW CODE</summary></b>
 
 <p align="center">
 
-```name: Node.js CI
+name: Node.js CI
 
 on:
   push:
@@ -87,3 +87,7 @@ jobs:
 
     - name: Start application
       run: npm start
+      
+</details>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
