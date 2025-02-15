@@ -6,10 +6,9 @@ module.exports = {
   SESSION_ID: process.env.SESSION_ID || "",
   // ADD Your Session Id 
   OWNER_NUMBER: process.env.OWNER_NUMBER || "",
+ //add owner number
   PREFIX: process.env.PREFIX || ".",
-  // Add Your Custom Prefix 
-  OWNER_NUMBER_REACT: process.env.OWNER_NUMBER_REACT ||"",
-  //add number reacat
+  // Add Your Custom Prefix
   mode: process.env.mode || "public",
   // Add Your Bot Mode 
   // private = Only Working For Owner Number
