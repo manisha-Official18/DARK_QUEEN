@@ -42,7 +42,7 @@
 </details>
 
 <!-- WORKFLOW CODE -->
-<b><details><summary>3. 𝗪𝗢𝗥𝗞𝗙𝗟𝗢𝗪 𝗖𝗢𝗗𝗘</summary></b>
+<b><details><summary>𝗪𝗢𝗥𝗞𝗙𝗟𝗢𝗪 𝗖𝗢𝗗𝗘</summary></b>
 
 <p align="center">
 
