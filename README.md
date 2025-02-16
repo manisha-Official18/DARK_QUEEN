@@ -6,7 +6,7 @@
 
 </p>
 <p align="center"> 
-  <a href="https://whatsapp.com/channel/0029Vb1AB158F2pCzMyd8O1B">
+  <a href="😒">
     <img alt=Support height="600" src="https://files.catbox.moe/unnoua.jpg">
     </p>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
@@ -26,7 +26,7 @@
 ╚〠═════┉════════〠╝
 
 <a><img src= https://i.imgur.com/LyHic3i.gif /></a><a><img src= https://i.imgur.com/LyHic3i.gif /></a>
-# <a href="https://wa.me/721551183"><img src="https://img.shields.io/badge/whatsapp-ff0000?style=for-the-badge&logo=whatsapp&logoColor=ff000000&link=https://wa.me/721551183" /><br>
+# <a href="https://wa.me/759934522"><img src="https://img.shields.io/badge/whatsapp-ff0000?style=for-the-badge&logo=whatsapp&logoColor=ff000000&link=https://wa.me/759934522" /><br>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 # <a href="https://whatsapp.com/channel/0029Vb1AB158F2pCzMyd8O1B"><img src="https://img.shields.io/badge/WhatsApp Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&link=https://whatsapp.com/channel/0029Vb33Gmr6hENhFseLgF2f" /><br>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
