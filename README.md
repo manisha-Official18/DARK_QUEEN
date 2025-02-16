@@ -6,7 +6,7 @@
 
 </p>
 <p align="center"> 
-  <a href="😒">
+  <a href="https://wa.me/759934522?text=*help🥲*">
     <img alt=Support height="600" src="https://files.catbox.moe/unnoua.jpg">
     </p>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
