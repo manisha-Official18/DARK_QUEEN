@@ -19,12 +19,6 @@
 # ▯[PAIR CODE](https://replit.com/@manisha1718mani/WHATSAPP-BOT-PIR)▯
 ╚═════════════╝
 
-## 2. 𝗪𝗢𝗥𝗞𝗙𝗟𝗢𝗪
-
-╔〠═════┉════════〠╗
-# [WORKFLOW LINK](https://github.com/manisha-Official18/DARK_QUEEN/new/main?filename=.github%2Fworkflows%2Fmain.yml&workflow_template=blank)
-╚〠═════┉════════〠╝
-
 <a><img src= https://i.imgur.com/LyHic3i.gif /></a><a><img src= https://i.imgur.com/LyHic3i.gif /></a>
 # <a href="https://wa.me/759934522"><img src="https://img.shields.io/badge/whatsapp-ff0000?style=for-the-badge&logo=whatsapp&logoColor=ff000000&link=https://wa.me/759934522" /><br>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
