@@ -20,51 +20,6 @@
       "description": "Add Your Bot Mode (private, public, inbox, groups) here.",
       "required": true,
       "default": "public"
-    },
-    "ANTI_BAD_WORDS_ENABLED": {
-      "description": "Enable anti bad words (true/false)",
-      "required": false,
-      "default": "true"
-    },
-    "AUTO_READ_STATUS": {
-      "description": "Auto read status (true/false)",
-      "required": false,
-      "default": "true"
-    },
-    "ANTI_BAD_WORDS": {
-      "description": "Comma-separated list of bad words to filter.",
-      "required": false,
-      "default": ""
-    },
-    "ANTI_LINK": {
-      "description": "Enable anti link feature (true/false)",
-      "required": false,
-      "default": "false"
-    },
-    "ALWAYS_ONLINE": {
-      "description": "Always online feature (true/false)",
-      "required": false,
-      "default": "false"
-    },
-    "ALWAYS_TYPING": {
-      "description": "Always typing feature (true/false)",
-      "required": false,
-      "default": "false"
-    },
-    "ALWAYS_RECORDING": {
-      "description": "Always recording feature (true/false)",
-      "required": false,
-      "default": "false"
-    },
-    "ANTI_BOT": {
-      "description": "Enable anti bot feature (true/false)",
-      "required": false,
-      "default": "true"
-    },
-    "ANTI_DELETE": {
-      "description": "Enable anti delete feature (true/false)",
-      "required": false,
-      "default": "true"
     }
   },
 
