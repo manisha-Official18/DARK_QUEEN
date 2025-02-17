@@ -1,6 +1,6 @@
 {
   "name": "DARK_QUEEN",
-  "version": "1.0.0",
+  "version": "1",
   "description": "Sri Lankan Most Speed & Best Multi Device Whatsapp Bot",
   "main": "queen.js",
   "scripts": {
@@ -51,6 +51,7 @@
     "ios-news": "^1.0.0",
     "wa-sticker-formatter": "^4.3.2",
     "yts": "^2.0.0",
+    "mongoose": "^8.9.4",
     "@vreden/youtube_scraper":"1.2.5"
   }
 }
