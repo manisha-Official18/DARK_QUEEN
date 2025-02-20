@@ -11,7 +11,6 @@
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
     "9gag":"4.0.0",
-    "mongoose":"8.10.1",
     "human-readable": "^0.2.1",
     "@blackamda/telegram-image-url": "^1.0.0",
     "@sl-code-lords/esana-news":"1.1.0",
