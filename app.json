@@ -16,10 +16,10 @@
       "required": true,
       "default": "."
     },
-    "mode": {
+    "MODE": {
       "description": "Add Your Bot Mode (private, public, inbox, groups) here.",
       "required": true,
-      "default": "public"
+      "default": "inbox"
     }
   },
 
