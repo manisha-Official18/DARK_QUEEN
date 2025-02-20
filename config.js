@@ -4,7 +4,6 @@ require("dotenv").config();
 module.exports = {
   //==========================================- MAIN - CONFIGS -==================================================================
   SESSION_ID: process.env.SESSION_ID || "", // ADD Your Session Id 
-  MONGODB: process.env.MONGODB || "", //Enter your mongoDB public URL
   OWNER_NUMBER: process.env.OWNER_NUMBER || "", //add owner number
  //==================================================API KEY======================================================================
   MOVIE_API_KEY: process.env.MOVIE_API_KEY || "sky|decd54b4fa030634e54d6c87fdffbb95f0bb9fb5", // https://api.skymansion.site/movies-dl
